@@ -1,1 +1,12 @@
 doc.org
+docorg.org
+.auctex-auto**
+doc.aux
+doc.html
+doc.log
+doc.out
+doc.pdf
+doc.synctex.gz
+doc.tex
+doc.toc
+docorg.md
