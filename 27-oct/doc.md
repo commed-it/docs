@@ -1,6 +1,7 @@
 
 # Table of Contents
 
+<<<<<<< HEAD
 1.  [Planification for current Sprint](#org71edfcd) - Quim
 2.  [Requirements - Product](#org9935dda) - Emina & Jass
 3.  [Main use cases](#orge7ab8cc) - Emina & Jass
@@ -14,10 +15,25 @@
 6.  [Web application](#orgda444e6) - Sergi
     1.  [Authentication](#org8d3dfe4)
 7.  [Financial Factors](#orgf7f9ad1) - Oriol & Nico
+=======
+1.  [Planification for current Sprint](#orge067dbe)
+2.  [Requirements - Product](#org53b1ef4)
+3.  [Main use cases](#orgdd37f50)
+4.  [General architecture](#org1b1e749)
+5.  [Database model](#orgee1603c)
+    1.  [Users model](#orgb53ba2b)
+    2.  [Enterprise Module](#org79e9ed8)
+    3.  [Product Module](#orgf4f8584)
+    4.  [Formal Offer module](#org7d11f74)
+        1.  [We didn&rsquo;t make any notes for the products](#orgb3bd3b7)
+6.  [Web application](#orgb83efd8)
+    1.  [Authentication](#orgf09fb3a)
+7.  [Financial Factors](#org448d13b)
+>>>>>>> 28220e3069e894d8f5dc691d11b329cccd70301f
 
 
 
-<a id="org71edfcd"></a>
+<a id="orge067dbe"></a>
 
 # Planification for current Sprint
 
@@ -29,7 +45,7 @@ Tasks
     is some change it should be specified
 
 
-<a id="org9935dda"></a>
+<a id="org53b1ef4"></a>
 
 # Requirements - Product
 
@@ -39,7 +55,7 @@ Tasks
 -   Indicator related to evolution between Sprints. Concretely, if there is some change, for example new requirements or modification inside an existing one, it should be specified.
 
 
-<a id="orge7ab8cc"></a>
+<a id="orgdd37f50"></a>
 
 # Main use cases
 
@@ -50,7 +66,7 @@ Tasks
 -   Indicator related to evolution between Sprints. Concretely, if there is some change it should be specified.
 
 
-<a id="orgfde3214"></a>
+<a id="org1b1e749"></a>
 
 # General architecture
 
@@ -62,30 +78,30 @@ Tasks
 -   Indicator related to evolution between Sprints. Concretely, if there is some change it should be specified.
 
 
-<a id="org9739469"></a>
+<a id="orgee1603c"></a>
 
 # Database model
 
-The database model can be looked on at the figure [18](#org1a83127). In the following sections, it will be discussed in a module to module basis why and how they are done.
+The database model can be looked on at the figure [18](#org0456258). In the following sections, it will be discussed in a module to module basis why and how they are done.
 
 ![img](img/database-model.png "UML diagram for the database.")
 
 
-<a id="org9a18c0b"></a>
+<a id="orgb53ba2b"></a>
 
 ## Users model
 
-The users model is already provided by Django framework. Its purpose is to be able to store the usernames and password in a secure way. It was only needed to do the operations needed for the authentication and not the CRUD operations on the User, based on a JWT bearers shcema. In [6.1](#org8d3dfe4) it will be explained fully on detail about how we did the authentication process.
+The users model is already provided by Django framework. Its purpose is to be able to store the usernames and password in a secure way. It was only needed to do the operations needed for the authentication and not the CRUD operations on the User, based on a JWT bearers shcema. In [6.1](#orgf09fb3a) it will be explained fully on detail about how we did the authentication process.
 
 
-<a id="orgcfa15d1"></a>
+<a id="org79e9ed8"></a>
 
 ## Enterprise Module
 
 We wanted to have a separated table of the user with the data that we need from the enterprises to work properly. It is a well known practice to separate the user specific fields in another table instead of extending the User model. In this way, we can use 3rd party apps that are well tested for authentication and authorization.
 
 
-<a id="org1d0ee40"></a>
+<a id="orgf4f8584"></a>
 
 ## Product Module
 
@@ -94,14 +110,14 @@ Each enterprise can post a number of products depending on the plans that they h
 For the searcher endpoint it will be needed a way to categorize the product. For this, it will be used Spacy, which lets us extract keywords and match against more general tags. For example, it can categorize &ldquo;apple&rdquo; as &ldquo;fruit&rdquo;. Then, when a client wants to search for a &ldquo;pear&rdquo;, instead of searching against the whole database, it will only search on the &ldquo;fruit&rdquo; tag.
 
 
-<a id="org29d0d47"></a>
+<a id="org7d11f74"></a>
 
 ## Formal Offer module
 
 In this module we will have the models that serve the purpose to create the formal offer. The most important model is the FormalOffer, which contains the necessary information to create the unsigned PDF, as well as the current PDF. It iterates with different versions between the enterprise that offers the service and the one that has solicited them, sending them through the chat. At the end, the signed PDF will be agreed upon and signed by both enterprises.
 
 
-<a id="orgcfe654e"></a>
+<a id="orgb3bd3b7"></a>
 
 ### TODO We didn&rsquo;t make any notes for the products
 
@@ -119,12 +135,12 @@ Tasks
 -   Indicator related to evolution between Sprints. Concretely, if there is some change, for example new requirements or modification inside an existing one, it should be specified.
 
 
-<a id="orgda444e6"></a>
+<a id="orgb83efd8"></a>
 
 # Web application
 
 
-<a id="org8d3dfe4"></a>
+<a id="orgf09fb3a"></a>
 
 ## Authentication
 
@@ -135,7 +151,7 @@ Tasks
 -   Decisions taken
 
 
-<a id="orgf7f9ad1"></a>
+<a id="org448d13b"></a>
 
 # Financial Factors
 
