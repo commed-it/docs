@@ -1,20 +1,19 @@
 
 # Table of Contents
 
-1.  [Planification for current Sprint](#org039a74e)
-2.  [Requirements - Product](#org30e4382)
-3.  [Main use cases](#orgc47d17e)
-4.  [General architecture](#org0c10ad2)
-5.  [Database model](#org03a016d)
-    1.  [Users model](#org71bfb5a)
-    2.  [Enterprise Module](#org7015789)
-    3.  [Product Module](#org2e942e4)
-    4.  [Formal Offer module](#orgd5e0a34)
-6.  [Web application](#orgc6dbfff)
-    1.  [Authentication](#org712facd)
-7.  [Financial Factors](#orga29bc04)
-
-
+1.  [Planification for current Sprint](#orge067dbe)
+2.  [Requirements - Product](#org53b1ef4)
+3.  [Main use cases](#orgdd37f50)
+4.  [General architecture](#org1b1e749)
+5.  [Database model](#orgee1603c)
+    1.  [Users model](#orgb53ba2b)
+    2.  [Enterprise Module](#org79e9ed8)
+    3.  [Product Module](#orgf4f8584)
+    4.  [Formal Offer module](#org7d11f74)
+        1.  [We didn&rsquo;t make any notes for the products](#orgb3bd3b7)
+6.  [Web application](#orgb83efd8)
+    1.  [Authentication](#orgf09fb3a)
+7.  [Financial Factors](#org448d13b)
 
 <a id="org039a74e"></a>
 
