@@ -1,13 +1,13 @@
 @startuml
 
 package Commed {
-    usecase Register into application as uc1
-    usecase Log In into Application) as uc2
-    usecase Search for Products/services) as uc3
-    usecase Publish Products/Services) as uc4
-    usecase Start chat for a product) as uc5
-    usecase Send comercial transation contract) as uc6
-    usecase Evidences Generation) as uc7
+    usecase "Register into application" as uc1
+    usecase "Log In into Application" as uc2
+    usecase "Search for Products/services" as uc3
+    usecase "Publish Products/Services" as uc4
+    usecase "Start chat for a product" as uc5
+    usecase "Send comercial transation contract" as uc6
+    usecase "Evidences Generation" as uc7
 }
 
 package Users{
@@ -23,7 +23,7 @@ o --> uc3
 c --> uc3
 uc5 <|-- uc2
 uc6 <|-- uc2
-uc7 <<|-- uc2
+uc7 <|-- uc2
 
 
 @enduml
