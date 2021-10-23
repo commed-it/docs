@@ -1,7 +1,6 @@
 
 # Table of Contents
 
-<<<<<<< HEAD
 1.  [Planification for current Sprint](#org71edfcd) - Quim
 2.  [Requirements - Product](#org9935dda) - Emina & Jass
 3.  [Main use cases](#orge7ab8cc) - Emina & Jass
@@ -15,21 +14,6 @@
 6.  [Web application](#orgda444e6) - Sergi
     1.  [Authentication](#org8d3dfe4)
 7.  [Financial Factors](#orgf7f9ad1) - Oriol & Nico
-=======
-1.  [Planification for current Sprint](#orge067dbe)
-2.  [Requirements - Product](#org53b1ef4)
-3.  [Main use cases](#orgdd37f50)
-4.  [General architecture](#org1b1e749)
-5.  [Database model](#orgee1603c)
-    1.  [Users model](#orgb53ba2b)
-    2.  [Enterprise Module](#org79e9ed8)
-    3.  [Product Module](#orgf4f8584)
-    4.  [Formal Offer module](#org7d11f74)
-        1.  [We didn&rsquo;t make any notes for the products](#orgb3bd3b7)
-6.  [Web application](#orgb83efd8)
-    1.  [Authentication](#orgf09fb3a)
-7.  [Financial Factors](#org448d13b)
->>>>>>> 28220e3069e894d8f5dc691d11b329cccd70301f
 
 
 
