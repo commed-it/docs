@@ -1,19 +1,19 @@
 
 # Table of Contents
 
-1.  [Planification for current Sprint](#org71edfcd) - Quim
-2.  [Requirements - Product](#org9935dda) - Emina & Jass
-3.  [Main use cases](#orge7ab8cc) - Emina & Jass
-4.  [General architecture](#orgfde3214) - Quim & Sergi
-5.  [Database model](#org9739469) - Sergi
+1.  [Planification for current Sprint](#org71edfcd) 
+2.  [Requirements - Product](#org9935dda) 
+3.  [Main use cases](#orge7ab8cc) 
+4.  [General architecture](#orgfde3214) 
+5.  [Database model](#org9739469) 
     1.  [Users model](#org9a18c0b)
     2.  [Enterprise Module](#orgcfa15d1)
     3.  [Product Module](#org1d0ee40)
     4.  [Formal Offer module](#org29d0d47)
         1.  [We didn&rsquo;t make any notes for the products](#orgcfe654e)
-6.  [Web application](#orgda444e6) - Sergi
+6.  [Web application](#orgda444e6) 
     1.  [Authentication](#org8d3dfe4)
-7.  [Financial Factors](#orgf7f9ad1) - Oriol & Nico
+7.  [Financial Factors](#orgf7f9ad1) 
 
 <a id="org039a74e"></a>
 
@@ -34,7 +34,7 @@ After that, we moved all the tasks that we thought that had to be done in the Fi
 Relating to the assignation of the tasks, we thought that each person of the group can be the one that chooses the tasks that he/she wants to complete and self assign it to himself.
 
 
-List of the product backlog before the sprint started:
+Sprint 1 Backlog:
     
     - Configure DB
         - size: 2
@@ -92,12 +92,31 @@ List of the product backlog before the sprint started:
 
 # Requirements - Product
 
-- 
+In this section we will be detailing the list of requirements that our aplication has to offer to the user: 
 
-Tasks
+**Sprint 1:**
 
--   The current list of requirements should be well defined and well explained for any participant.
--   Indicator related to evolution between Sprints. Concretely, if there is some change, for example new requirements or modification inside an existing one, it should be specified.
+Functional Requirements:
+
+- The application has to let all kind of users search for products or servicies.
+- The application has to let users register into the application.
+- The application has to let users log in to the aplication if they have an active acount on the system.
+- The aplication has to let users to create a enterprise profile if they are loged in.
+- The aplication has to let loged in users to publish products or serices.
+- The application has to let loged in users interested with a product/service start a chat with the owner of it.
+- The application has to let loged in users that are owning products to chat with interested users through a chat.
+- The application has to let loged in users to send comercial transaction contracts when an agreement has been reached.
+- The aplication has to let loged in users sign comercial transaction contracts send by the owner of a product we're interested in.
+- The application has to generate evidences for both sides of the commercial agreement.
+
+Non Functional Requirements:
+
+- The application has to be the most usable possible.
+- The application has to be compliant and respect the laws that run in every country where it's abailavle for.
+- The application has to be efficient and without large waiting times for the client.
+- The application has to be portable and easy to deploy.
+- The application has to be escalable and allways leave the code open to the possibility to add new features in the future.
+
 
 
 <a id="orgc47d17e"></a>
