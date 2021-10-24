@@ -125,17 +125,34 @@ Non Functional Requirements:
 
 ![img](use_case_diagram/usecase_diagram.png "Use Case Diagram")
 
-- Register into application 
+- **Register into application** 
+    - **Actors:** User
+    - **Purpose:** Let user register into the aplication system
+    - **Description:**  Provide a screen with a form in which the user is going to be able to fullfill it and send the information to our system in order to be registered in our system.
 - Log In into Application
+    - **Actors:** 
+    - **Purpose:** 
+    - **Description:**
 - Search for Products/services
+    - **Actors:** 
+    - **Purpose:** 
+    - **Description:**
 - Publish Products/Services
+    - **Actors:** 
+    - **Purpose:** 
+    - **Description:**
 - Start chat for a product
+    - **Actors:** 
+    - **Purpose:** 
+    - **Description:**
 - Send comercial transation contract
+    - **Actors:** 
+    - **Purpose:** 
+    - **Description:**
 - Evidences Generation
-
--   List
--   Reason to be essential
--   Indicator related to evolution between Sprints. Concretely, if there is some change it should be specified.
+    - **Actors:** 
+    - **Purpose:** 
+    - **Description:**
 
 
 <a id="org0c10ad2"></a>

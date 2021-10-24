@@ -13,7 +13,7 @@ package Commed {
 
 
 actor User as u
-
+actor EUDSS as eudss
 
 u --> uc1
 uc2 <|-- uc1
@@ -23,6 +23,7 @@ uc5 <|-- uc2
 uc6 <|-- uc5
 uc8 <|-- uc5
 uc7 <|-- uc8
+eudss --> uc8
 
 
 @enduml
