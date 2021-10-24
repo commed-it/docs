@@ -175,7 +175,7 @@ Finally, we have the two clients that will be consuming resources from our Appli
 <a id="org03a016d"></a>
 
 # Database model
-The database model can be looked on at the figure [1](img). In the following sections, it will be discussed in a module to module basis which purpose do they serve and which models do they have to achieve that.
+The database model can be seen at the figure [1](img). In the following sections, we will be reviewing which models shape our application and  which is the purpouse of every single of them inside the logic of the application.
 
 ![img](img/database-model.png "UML diagram for the database.")
 
@@ -184,13 +184,13 @@ The database model can be looked on at the figure [1](img). In the following sec
 
 ## Users model
 
-The users model is already provided by Django framework. Its purpose is to be able to store the usernames and password in a secure way. It was only needed to do the operations needed for the authentication and not the CRUD operations on the User, based on a JWT bearers shcema. In [6.1](#org712facd) it will be explained fully on detail about how we did the authentication process.
+The users model is already provided by Django framework. Its purpose is to be able to store the usernames and password in a secure way. It was only needed to do the operations required for the authentication and not the CRUD operations on the User, based on a JWT Bearer shcema. In [6.1](#org712facd) there is all the explanation regarding how the authentication works.
 
 <a id="org7015789"></a>
 
 ## Enterprise Module
 
-It is a well known practice, inside the Django framework, to separate the user specific fields in another table instead of extending the User model. In this way, 3rd party apps can be used, for example for the authentication part. With this method, not only such information as the name, the contact, or their description can be stored for a specific user, but also 3rd party apps that operate on the user can still be used.
+It is a well known practice inside the Django framework to separate the user specific fields in another table instead of extending the User model. This way, 3rd party apps can be used, for example, for the authentication part. With this method, not only the information such as the enterprise name, description or the fields for generating it's contacts can be stored for a specific user in our app, but futhermore 3rd party apps that operate on the user can also use it.
 
 
 <a id="org2e942e4"></a>
@@ -199,7 +199,7 @@ It is a well known practice, inside the Django framework, to separate the user s
 
 Each enterprise can post a number of products depending on the plans that they have subscribed. This module models the necessary data that should be stored to do the database.
 
-For the searcher endpoint it will be needed a way to categorize the product. For this, it will be used Spacy, which lets us extract keywords and match against more general tags. For example, it can categorize &ldquo;apple&rdquo; as &ldquo;fruit&rdquo;. Then, when a client wants to search for a &ldquo;pear&rdquo;, instead of searching against the whole database, it will only search on the &ldquo;fruit&rdquo; tag.
+For the searcher endpoint it will be needed a way to categorize the product. For this, Spacy will be used, which lets us extract keywords and match against more general tags. For example, it can categorize &ldquo;apple&rdquo; as &ldquo;fruit&rdquo;. Then, when a client wants to search for a &ldquo;pear&rdquo;, instead of searching against the whole database, it will only search on the &ldquo;fruit&rdquo; tag.
 
 To achieve this purpose, we store the tags that are currently used in a table, and we have a many to many relationship between the Product and Tag table. We made a table for the Tag instead of an enumaration as the Tag table will be increased programatically when it encounters a new tag that does not relate to anything at all.
 
@@ -209,11 +209,19 @@ In the near future, and, given the fact that the clients won&rsquo;t know about 
 
 ## Formal Offer module
 
-In this module we will have the models that serve the purpose to create the formal offer. The most important model is the FormalOffer, which contains the necessary information to create the unsigned PDF, as well as the current PDF. It iterates with different versions between the enterprise that offers the service and the one that has solicited them, sending them through the chat. At the end, the signed PDF will be agreed upon and signed by both enterprises.
+In this module we will have the models that have the responsability of creating formal offers. The most important model is the FormalOffer, which contains the necessary information to create the unsigned PDF, as well as the current PDF. It iterates with different versions between the enterprise that offers the service and the one that wants to buy them, related to the times the formal offer is sent in the chat. At the end, the signed PDF will be agreed upon and signed by both enterprises.
 
-Upon generating the requirements of the FormalOffer, it was said that it could be provided the different contracts that have been made with the same product, as in most cases, they will be similar.
+**< ??????????????????????????? >**
 
-The problem was that when the clients start their chat they have some time to discuss how and what should be done in the formal offer in a period of time. For this reason, it was decided that creating a model that has a chat related to them and the product would be better than storing it in a FormalOffer that all the other values are Null. With this solution in mind, the Encounter model was created.
+**TODO: REFACTOR**
+
+Upon generating the requirements of the FormalOffer, it was said that different countracts could be provided so that they have been made with the same product, as in most cases, they will be similar.
+
+
+
+The problem was that when the clients start their chat they have some time to discuss how and what should be inside the formal offer in a period of time. For this reason, it was decided that creating a model that has a chat related to them and the product would be better than storing it in a FormalOffer that all the other values are Null. With this solution in mind, the Encounter model was created.
+
+**</ ??????????????????????????? >**
 
 <a id="orgc6dbfff"></a>
 # Web application
