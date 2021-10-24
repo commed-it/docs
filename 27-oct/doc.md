@@ -129,27 +129,27 @@ Non Functional Requirements:
     - **Actors:** User
     - **Purpose:** Let user register into the aplication system
     - **Description:**  Provide a screen with a form in which the user is going to be able to fullfill it and send the information to our system in order to be registered in our system.
-- Log In into Application
+- **Log In into Application**
     - **Actors:** 
     - **Purpose:** 
     - **Description:**
-- Search for Products/services
+- **Search for Products/services**
     - **Actors:** 
     - **Purpose:** 
     - **Description:**
-- Publish Products/Services
+- **Publish Products/Services**
     - **Actors:** 
     - **Purpose:** 
     - **Description:**
-- Start chat for a product
+- **Start chat for a product**
     - **Actors:** 
     - **Purpose:** 
     - **Description:**
-- Send comercial transation contract
+- **Send comercial transation contract**
     - **Actors:** 
     - **Purpose:** 
     - **Description:**
-- Evidences Generation
+- **Evidences Generation**
     - **Actors:** 
     - **Purpose:** 
     - **Description:**
@@ -159,13 +159,15 @@ Non Functional Requirements:
 
 # General architecture
 
-Tasks
+![img](architecture_diagram/Architecture.drawio.png "Use Case Diagram")
 
--   Definition (relational diagram, image, etc.)
--   Explanation
--   Decisions taken
--   Indicator related to evolution between Sprints. Concretely, if there is some change it should be specified.
+The main item in the architecture is the Application Server. This Server is the one that will run the backend of our aplication, and furthermore, the one that will hold all the buisness logic. 
 
+This Service will consume resources for another two services. One of them is it's own database, that will be isolated in a single container and will store all the application data. The other one is the digital signature service.
+
+As digital signature it's a complex thing by itself, we thought that this should be isolated in another service, due that the whole implementation of it has nothing related with the bussines logic holded in the Application Service. So we will have a Digital Signature service, also with it's own database, isolated in a container to wich the Application server will consume resources.
+
+Finally, we have the two clients that will be consuming resources from our Application Server. This are the Android client, with the whole user interface of our application. And the Web client with the user interface of the Admin part.
 
 <a id="org03a016d"></a>
 
