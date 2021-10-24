@@ -123,6 +123,16 @@ Non Functional Requirements:
 
 # Main use cases
 
+![img](use_case_diagram/usecase_diagram.png "Use Case Diagram")
+
+- Register into application 
+- Log In into Application
+- Search for Products/services
+- Publish Products/Services
+- Start chat for a product
+- Send comercial transation contract
+- Evidences Generation
+
 -   List
 -   Reason to be essential
 -   Indicator related to evolution between Sprints. Concretely, if there is some change it should be specified.
