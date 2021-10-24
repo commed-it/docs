@@ -1,7 +1,9 @@
 
 # Table of Contents
 
-1.  [Planification for current Sprint](#org039a74e) 
+1.  [Planification](#org039a74e) 
+    1. [User Stories](#org039a74e1)
+    2. [Sprint 1](#org039a74e2)
 2.  [Requirements - Product](#org30e4382) 
 3.  [Main use cases](#orgc47d17e) 
 4.  [General architecture](#org0c10ad2) 
@@ -16,9 +18,30 @@
 
 <a id="org039a74e"></a>
 
-# Planification for current Sprint
+# Planification
+
+<a id="org039a74e1"></a>
+
+## User Stories
 
 The first thing done regarding the planification of the project was to define the behaibour of our aplication in a list of user stories. This list, exposes all the actions that the user can do with our application and explains different ways of interacting with it.
+
+- **US1:** As a guest, I want to register in the application 
+- **US2:** As a user, I want to log in to the application. 
+- **US3:** As a registered user, I want to create a profile of my company.
+- **US4:** As a guest, I want to search for services or products so that I receive a list of services or products.
+- **US5:** As a guest, I want to have a detailed view of the product/service.
+- **US6:** As a registered user who has a company profile, I want to create services/products.
+- **US7:** As a user, I want to connect to a company because of a publication.
+- **US8:** As a user, I need to chat with the company that I connected with.
+- **US9:** As a company, I want to chat with the users that have sent a message.
+- **US10:** As a company, I want to send the Formal Offer which contains the contract pdf through the chat.
+- **US11:** As a company, I want to digitally sign contracts.
+- **US12:** As a user, I want to digitally sign contracts.
+
+<a id="org039a74e2"></a>
+
+## Sprint 1
 
 The next step was creating a Scrum Board inside a Github project with the following structure:
 
