@@ -129,29 +129,33 @@ Non Functional Requirements:
     - **Purpose:** Let user register into the aplication system
     - **Description:**  Provide a screen with a form in which the user is going to be able to fullfill it and send the information to our system in order to be registered in our system.
 - **Log In into Application**
-    - **Actors:** 
-    - **Purpose:** 
-    - **Description:**
+    - **Actors:**  User
+    - **Purpose:** Log in to the application to be able to use the aplication services
+    - **Description:** Provide a screen with a form in which user will put it's email and password and will log in to the aplication to be able to start using the services that it provides.
 - **Search for Products/services**
-    - **Actors:** 
-    - **Purpose:** 
-    - **Description:**
+    - **Actors:** User
+    - **Purpose:** Search for any produt or service the user is interested in
+    - **Description:** Provide a searcher to make able to every user to search for products or services that they are interested in.
 - **Publish Products/Services**
-    - **Actors:** 
-    - **Purpose:** 
-    - **Description:**
+    - **Actors:** User
+    - **Purpose:** Publish services or products in order to be selled to other interested users.
+    - **Description:** Let to loged in users to pubish the products and services that they offer in order to sell them to other interested users.
 - **Start chat for a product**
-    - **Actors:** 
-    - **Purpose:** 
-    - **Description:**
+    - **Actors:** User
+    - **Purpose:** Users can start chat when they are interested in a product
+    - **Description:** Let users start a chat with the owners of the products/services they are interested with in order to start a negotiation.
 - **Send comercial transation contract**
-    - **Actors:** 
-    - **Purpose:** 
-    - **Description:**
+    - **Actors:** User
+    - **Purpose:** Send a formal offer with a comercial transaction contract
+    - **Description:** Let owners of products/services to send within the chat a formal offer containng a compliant comercial transaction contract within the chat while the negotiations are taking place.
+- **Digitally Sign contract**
+    - **Actors:** User EUSSD
+    - **Purpose:** Sign the comercial transation contract sended within a Formal Offer
+    - **Description:** Let users of the application sign digitally the contract that is send inside a Formal Offer while a negotiation is taking place in the chat.
 - **Evidences Generation**
-    - **Actors:** 
-    - **Purpose:** 
-    - **Description:**
+    - **Actors:** User
+    - **Purpose:** Provide users with evidences and billing of the bussiness transaction
+    - **Description:** The system will generate for both parts of the comertial transaction all the evidencies and billing of the signing and agreement proces.
 
 
 <a id="org0c10ad2"></a>
