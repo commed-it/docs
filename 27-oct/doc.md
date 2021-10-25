@@ -24,18 +24,18 @@
 
 ## User Stories
 
-The first thing done regarding the planification of the project was to define the behaibour of our aplication in a list of user stories. This list, exposes all the actions that the user can do with our application and explains different ways of interacting with it.
+The first thing that was done regarding the planification of the project was to define the behavior of the application in a list of user stories. The next list exposes all of the actions that the user can do with it  as well as different ways of interacting with it.
 
 - **US1:** As a guest, I want to register in the application 
 - **US2:** As a user, I want to log in to the application. 
 - **US3:** As a registered user, I want to create a profile of my company.
-- **US4:** As a guest, I want to search for services or products so that I receive a list of services or products.
+- **US4:** As a guest, I want to search for services or products so that I receive said list.
 - **US5:** As a guest, I want to have a detailed view of the product/service.
 - **US6:** As a registered user who has a company profile, I want to create services/products.
-- **US7:** As a user, I want to connect to a company because of a publication.
-- **US8:** As a user, I need to chat with the company that I connected with.
-- **US9:** As a company, I want to chat with the users that have sent a message.
-- **US10:** As a company, I want to send the Formal Offer which contains the contract pdf through the chat.
+- **US7:** As a user, I want to be able to *connect* with a company that has made a publication.
+- **US8:** As a user, I need to be able to speak in a chat with the company that I connected.
+- **US9:** As a company, I want to respond in the chat with the users that have sent messages.
+- **US10:** As a company, I want to send a Formal Offer which contains a  contract as a PDF through the chat.
 - **US11:** As a company, I want to digitally sign contracts.
 - **US12:** As a user, I want to digitally sign contracts.
 
@@ -47,14 +47,17 @@ The next step was creating a Scrum Board inside a Github project with the follow
 
 ![img](img/scrum_board.png "Scrum Board")
 
-After, we did a meeting in order to fullfill the product backlog with all the tasks that had to be done. This tasks were related to User Stories, but we divided it in order to get as a result a product backlog with a lot of glanularity in tasks.
+Afterwards, a meeting was hold in order to fullfill the product backlog with all the tasks that had to be done. This tasks were related to User Stories, but they were divided so that the product backlog had a small granularity in the given tasks.
 
-Once we created all the tasks, we started reviewing each one of it  descriving what has to be done and giving a weight based on the complexity of the task. This weight is given following the Fibbonacci Sequence.
+Later, all the tasks were described as a list of things to implement. Additionaly, a weight was given for the complexity of the task, and said weight has to be a number on the Fibbonacci Sequence.
 
-After that, we moved all the tasks that we thought that had to be done in the First Sprint to the To do column, which is the column related to the Sprint Backlog. 
+<<< ??
+Once all the tasks were created, a period for reviewing each one of them started. In this period, all the descriving what has to be done and giving a weight based on the complexity of the task. This weight is given following the Fibbonacci Sequence.
+<<< @quimpm @sergisi
 
-Relating to the assignation of the tasks, we thought that each person of the group can be the one that chooses the tasks that he/she wants to complete and self assign it to himself.
+After that, all the tasks that had to be done in the First Sprint were moved in a *To Do* column in the project, which was the name that was given to the commonly said **Sprint Backlog**.
 
+Finally, the assignation of the tasks were given as a self assignation, as all of the team wanted to contribute. By having each one choose their own work, it makes it easier to stay motivated.
 
 Sprint 1 Backlog:
     
@@ -62,7 +65,7 @@ Sprint 1 Backlog:
         - size: 2
     - Configure Swager
         - size: 3
-    -Authentication for some API endpoints
+    - Authentication for some API endpoints
         - size: 8
         - US1, US2
     - Conteinarize Aplication:
@@ -108,36 +111,36 @@ Sprint 1 Backlog:
     - Automatic Deploy CD
         - size: 5
     - Admin Statistics
-        - size: 8    
+        - size: 8
 
 <a id="org30e4382"></a>
 
 # Requirements - Product
 
-In this section we will be detailing the list of requirements that our aplication has to offer to the user: 
+In this section it will be detailed the list of requirements that the application has to offer to the user: 
 
 **Sprint 1:**
 
 Functional Requirements:
 
-- The application has to let all kind of users search for products or servicies.
+- The application has to let all kinds of users search for products or servicies.
 - The application has to let users register into the application.
-- The application has to let users log in to the aplication if they have an active acount on the system.
-- The aplication has to let users to create a enterprise profile if they are loged in.
-- The aplication has to let loged in users to publish products or serices.
-- The application has to let loged in users interested with a product/service start a chat with the owner of it.
-- The application has to let loged in users that are owning products to chat with interested users through a chat.
-- The application has to let loged in users to send comercial transaction contracts when an agreement has been reached.
-- The aplication has to let loged in users sign comercial transaction contracts send by the owner of a product we're interested in.
-- The application has to generate evidences for both sides of the commercial agreement.
+- The application has to let users log in to the application if they have an active acount on the system.
+- The application has to let users to create a enterprise profile if they are logged.
+- The application has to let logged users to publish products or services.
+- The application has to let logged users interested with a either a product or a service to start a chat with the owner of it.
+- The application has to let logged users who are owners of a given product to chat with said interested users through a chat.
+- The application has to let loged users to send a comercial transaction contract when an agreement has been reached.
+- The application has to let loged users sign a comercial transaction contract send by the owner of a product that they are interested.
+- The application has to generate the evidences for both sides of the commercial agreement.
 
 Non Functional Requirements:
 
-- The application has to be the most usable possible.
-- The application has to be compliant and respect the laws that run in every country where it's abailavle for.
-- The application has to be efficient and without large waiting times for the client.
+- The application has to be the most usably possible.
+- The application has to be compliant and respect the laws that run in each country that it's abailable.
+- The application mustn't have large waiting times for the client.
 - The application has to be portable and easy to deploy.
-- The application has to be escalable and allways leave the code open to the possibility to add new features in the future.
+- The application has to be escalable and always leave the code open to the possibility to add new features in the future.
 
 
 
@@ -149,36 +152,36 @@ Non Functional Requirements:
 
 - **Register into application** 
     - **Actors:** User
-    - **Purpose:** Let user register into the aplication system
-    - **Description:**  Provide a screen with a form in which the user is going to be able to fullfill it and send the information to our system in order to be registered in our system.
+    - **Purpose:** Lets a user register into the application system
+    - **Description:**  Provide a screen with a form in which the user is able to fullfill it and send the information to the system in order to be registered.
 - **Log In into Application**
     - **Actors:**  User
-    - **Purpose:** Log in to the application to be able to use the aplication services
-    - **Description:** Provide a screen with a form in which user will put it's email and password and will log in to the aplication to be able to start using the services that it provides.
+    - **Purpose:** Logs in to the application to be able to use the some of the application services
+    - **Description:** Provides a screen with a form in which user will put its email and password and they will log into the application to be able to start using the services that it provides.
 - **Search for Products/services**
     - **Actors:** User
-    - **Purpose:** Search for any produt or service the user is interested in
-    - **Description:** Provide a searcher to make able to every user to search for products or services that they are interested in.
+    - **Purpose:** Search for any produt or service the user is interested.
+    - **Description:** Provides a searcher for every user so that they can look up the products or services that they are interested.
 - **Publish Products/Services**
     - **Actors:** User
-    - **Purpose:** Publish services or products in order to be selled to other interested users.
-    - **Description:** Let to loged in users to pubish the products and services that they offer in order to sell them to other interested users.
+    - **Purpose:** Publish services or products in order to be sold to other users.
+    - **Description:** Lets a logged user to pubish the products and services that they offer in order for them to be sold to other interested users.
 - **Start chat for a product**
     - **Actors:** User
     - **Purpose:** Users can start chat when they are interested in a product
-    - **Description:** Let users start a chat with the owners of the products/services they are interested with in order to start a negotiation.
+    - **Description:** Lets a logged user start a chat with the owners of either a product or a service that they are interested, so that they can start a negotiation.
 - **Send comercial transation contract**
     - **Actors:** User
-    - **Purpose:** Send a formal offer with a comercial transaction contract
-    - **Description:** Let owners of products/services to send within the chat a formal offer containng a compliant comercial transaction contract within the chat while the negotiations are taking place.
+    - **Purpose:** Sends a formal offer with a comercial transaction contract.
+    - **Description:** Lets the owners of a given products or services to send a formal offer containing a compliant comercial transaction contract within the chat that the negotiations are taking place.
 - **Digitally Sign contract**
     - **Actors:** User EUSSD
-    - **Purpose:** Sign the comercial transation contract sended within a Formal Offer
-    - **Description:** Let users of the application sign digitally the contract that is send inside a Formal Offer while a negotiation is taking place in the chat.
+    - **Purpose:** Sign a comercial transation contract sent within a Formal Offer.
+    - **Description:**  Lets the users of the application to sign digitally the contract that was sent as a Formal Offer in the chat that the negotations took place.
 - **Evidences Generation**
     - **Actors:** User
-    - **Purpose:** Provide users with evidences and billing of the bussiness transaction
-    - **Description:** The system will generate for both parts of the comertial transaction all the evidencies and billing of the signing and agreement proces.
+    - **Purpose:** Provides users with evidences and the billing of a bussiness transaction
+    - **Description:** The system will generate for both parts the comertial transaction with all of the evidencies and the billing of the contract.
 
 
 <a id="org0c10ad2"></a>
@@ -187,18 +190,18 @@ Non Functional Requirements:
 
 ![img](architecture_diagram/Architecture.drawio.png "Use Case Diagram")
 
-The main item in the architecture is the Application Server. This Server is the one that will run the backend of our aplication, and furthermore, the one that will hold all the buisness logic. 
+The main item in the architecture is the Application Server. This Server will run the backend of the aplication, and furthermore, it will be responsible for most of the business logic.
 
 This Service will consume resources for another two services. One of them is it's own database, that will be isolated in a single container and will store all the application data. The other one is the digital signature service.
 
-As digital signature it's a complex thing by itself, we thought that this should be isolated in another service, due that the whole implementation of it has nothing related with the bussines logic holded in the Application Service. So we will have a Digital Signature service, also with it's own database, isolated in a container to wich the Application server will consume resources.
+As digital signature it's a complex thing by itself, it was thought that it should be isolated in another service, as the whole implementation of it has nothing related with the bussines logic holded in the Application Service. So a Digital Signature service with it's own database will be made, isolated in a container to which the Application server will consume resources.
 
-Finally, we have the two clients that will be consuming resources from our Application Server. This are the Android client, with the whole user interface of our application. And the Web client with the user interface of the Admin part.
+Finally, the application has two clients that will be consuming resources from our Application Server. The first one will be the Android client, which it will have the whole user interface. Secondly, a Web client will be made with a similar user interface, but also an administration pages for the database.
 
 <a id="org03a016d"></a>
 
 # Database model
-The database model can be seen at the figure [1](img). In the following sections, we will be reviewing which models shape our application and  which is the purpouse of every single of them inside the logic of the application.
+The database model can be seen at figure [1](img). In the following sections, it will be reviewed which models shape the application and  which purpouse inside the logic do they have.
 
 ![img](img/database-model.png "UML diagram for the database.")
 
@@ -234,17 +237,10 @@ In the near future, and, given the fact that the clients won&rsquo;t know about 
 
 In this module we will have the models that have the responsability of creating formal offers. The most important model is the FormalOffer, which contains the necessary information to create the unsigned PDF, as well as the current PDF. It iterates with different versions between the enterprise that offers the service and the one that wants to buy them, related to the times the formal offer is sent in the chat. At the end, the signed PDF will be agreed upon and signed by both enterprises.
 
-**< ??????????????????????????? >**
+It was required a feature to provide some kind of template in the Formal Offer for the users. The ideal product is to have some kind of Natural Language Processing service that tries to create a Formal Offer based on previous formal offers and the messages in the chat. But, this task required a data to train the model that the application will not have in the next few years. Meanwhile, the previous contract of the same product could be given as a template. For this reason, it is needed a relation between the Product model and the FormalOffer model.
 
-**TODO: REFACTOR**
+The problem is that when the clients start a chat for a product, a Formal Offer is not created after some time. Additionaly, there is no guarantee that a formal offer will be created for every chat that has been launched. For this reason, it was decided that creating a model that has a chat related to them and the product would be better than storing it in a FormalOffer that all the other values are Null. With this solution in mind, the Encounter model was created.
 
-Upon generating the requirements of the FormalOffer, it was said that different countracts could be provided so that they have been made with the same product, as in most cases, they will be similar.
-
-
-
-The problem was that when the clients start their chat they have some time to discuss how and what should be inside the formal offer in a period of time. For this reason, it was decided that creating a model that has a chat related to them and the product would be better than storing it in a FormalOffer that all the other values are Null. With this solution in mind, the Encounter model was created.
-
-**</ ??????????????????????????? >**
 
 <a id="orgc6dbfff"></a>
 # Web application
