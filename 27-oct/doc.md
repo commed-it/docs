@@ -105,15 +105,11 @@ The problem was that when the clients start their chat they have some time to di
 
 <a id="orgc6dbfff"></a>
 # Web application
+The administration use case for our application was done by the Django framework. This can be seen at the screenshots **TODO: put the sceenshots accordingly**. Additionaly, some other form of documentation was provided by the endpoints, including OpenAPI and swagger docs. This lets the developers have a clear understading on what can be done in the API, which it will help later on the development on the Android and the Web application.
 
-Tasks
-  Main screens.
+The relations in the dashboard are done as shown in the screenshots: the models are grouped in the application that registered them, and provide an interface to query, insert, update and delete items in the database.
 
--   Relations
--   Decisions taken
-
-
-
+It was decided that some stadistics about the application should be on the administration tab, but it was left in the backlog for the third sprint.
 
 <a id="org712facd"></a>
 
