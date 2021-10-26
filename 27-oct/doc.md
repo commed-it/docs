@@ -106,6 +106,14 @@ The problem was that when the clients start their chat they have some time to di
 <a id="orgc6dbfff"></a>
 # Web application
 
+Tasks
+  Main screens.
+
+-   Relations
+-   Decisions taken
+
+
+
 
 <a id="org712facd"></a>
 
@@ -113,14 +121,6 @@ The problem was that when the clients start their chat they have some time to di
 The problem was solved by using two well known apps in the Django community. The first is mantained by an Enterprise called *IntenCT* who specilizes on doing web applications using Django. This enterprise published a library that provides an authentication system. It specializes on keeping users that come from different apps, while proving a solution for this based on tokens. With this, implementing simple JavaScript Web Tokens are just a step on the configuration, but also adding a way to integrate other services for authentication, as a **Log In with Google** button use case.
 
 The other app that is used provides a REST entrypoint for the first one. In this way, with just a small configuration a ready-to-go service is achieved. 
-
-
-Tasks
-  Main screens.
-
--   Relations
--   Decisions taken
-
 
 <a id="orga29bc04"></a>
 
