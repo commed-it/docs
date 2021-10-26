@@ -1,0 +1,30 @@
+@startuml
+!theme plain
+
+package Commed {
+    usecase "Register into application" as uc1
+    usecase "Log In into Application" as uc2
+    usecase "Search for Products/services" as uc3
+    usecase "Publish Products/Services" as uc4
+    usecase "Start chat for a product" as uc5
+    usecase "Send comercial transation contract" as uc6
+    usecase "Evidences Generation" as uc7
+    usecase "Digitaly Sign contract" as uc8
+}
+
+
+actor User as u
+actor EUDSS as eudss
+
+u --> uc1
+uc2 <|-- uc1
+u --> uc3
+uc4 <|-- uc2
+uc5 <|-- uc2
+uc6 <|-- uc5
+uc8 <|-- uc5
+uc7 <|-- uc8
+eudss --> uc8
+
+
+@enduml
