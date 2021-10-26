@@ -38,6 +38,8 @@ The first thing that was done regarding the planification of the project was to 
 - **US10:** As a company, I want to send a Formal Offer which contains a  contract as a PDF through the chat.
 - **US11:** As a company, I want to digitally sign contracts.
 - **US12:** As a user, I want to digitally sign contracts.
+- **US13:** As a user, I want to recive evidences of the proces when a contract is signed. 
+- **US14:** As a user, I want to recive billing and invoices regarding the signed comertial transaction contract.
 
 <a id="org039a74e2"></a>
 
