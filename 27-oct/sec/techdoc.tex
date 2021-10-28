@@ -2,6 +2,15 @@
 \documentclass[./main.tex]{subfiles}
 \begin{document}
 
+\section{Relevant links}
+
+\begin{itemize}
+	\item \href{https://github.com/commed-it/backend}{GitHub backend}
+	\item \href{https://github.com/commed-it/docs}{GitHub docs}
+	\item \href{https://github.com/orgs/commed-it/projects/1}{GitHub project}
+	\item \href{https://drive.google.com/drive/folders/15iM-Fm6krEBcHkVyaqSUfjJMY1MKBMm6?usp=sharing}{Slides of the presentation}
+	\item \href{https://docs.google.com/spreadsheets/d/1qyKpYXf7lZ2p7q09JHzv7e7yGVBiPEqGNHhwPsFYcXc/edit?usp=sharing}{Spreadsheet documentation}
+\end{itemize}
 
 \section{Planification}
 
@@ -65,34 +74,28 @@ the following structure:
 \includegraphics[width=\linewidth]{img/scrum_board.png}
 \caption{Github project sceen}
 \end{figure}
-
 Afterwards, a meeting was held in order to fulfill the product backlog
 with all the tasks that had to be done. These tasks were related to User
 Stories, but they were divided so that the product backlog had a small
 granularity in the given tasks.
 \\
 \\
-
 Later, all the tasks were described as a list of things to implement.
 Additionally, a weight was given for the complexity of the task and
 said weight has to be a number on the Fibonacci Sequence.
 \\
 \\
-
 After that, all the tasks that had to be done in the First Sprint were
 moved in a \emph{To Do} column in the project, which was the name that
 was given to the commonly said \textbf{Sprint Backlog}.
 \\
 \\
-
 Finally, all of the tasks were self assigned, depending on how every
 member of the team wanted to contribute. By having each member choose
 their own work, it makes it easier to stay motivated.
 \\
 \\
-
 Sprint 1 Backlog:
-
 \begin{verbatim}
 - Configure DB
     - size: 2
@@ -340,25 +343,22 @@ Non Functional Requirements:
 \hypertarget{general-architecture}{%
 \section{General architecture}\label{general-architecture}}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.6\textwidth]{architecture_diagram/Architecture.drawio.png}
 \caption{General architecture of the application.}
 \end{figure}
-
 The main item in the architecture is the Application Server. This 
 will run in the backend, and furthermore, it will be
 responsible for most of the business logic.
 \\
 \\
-
 This Service will consume resources for another two services. One of
 them is its own database, that will be isolated in a single container
 and will store all the application data. The other one is the digital
 signature service.
 \\
 \\
-
 As digital signature is a complex thing by itself, it was thought that
 it should be isolated in another service, as the whole implementation of
 it has nothing related with the business logic held in the Application
@@ -367,29 +367,25 @@ made, isolated in a container in which the Application server will
 consume resources.
 \\
 \\
-
 Finally, the application has two clients that will be consuming
 resources from our Application Server. The first one will be the Android
 client, which will have the whole user interface. Secondly, a Web client
 will be made with a similar user interface, but also administration
 pages for the database.
-
 \section{Database model}
-
 The database model can be seen at figure \ref{fig:model-uml}. In the following
 sections, it will be reviewed which models shape the application and
 which purpose inside the logic do they have.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.9\linewidth]{img/database-model.png}
+\includegraphics[width=\linewidth]{img/database-model.png}
 \caption{UML diagram of the models.}
 \label{fig:model-uml}
 \end{figure}
 
 
 \subsection{Users model}
-
 The users model is already provided by Django framework. Its purpose is
 to be able to store the usernames and passwords securely. Only
 the operations required for the authentication were needed to be done
@@ -399,7 +395,6 @@ regarding the way that the authentication works.
 
 
 \subsection{Enterprise Module}
-
 A well known practice inside the Django framework is to separate the
 user specific fields in another table instead of extending the User
 model. This way, 3\supindex{rd} party apps can be used, for example, for the
@@ -410,13 +405,11 @@ furthermore 3rd party apps that operate on the user can also use it.
 
 
 \subsection{Product Module}
-
 Each enterprise can post a number of products depending on the plans
 that they have subscribed to. This module models the necessary data that
 should be stored to do the database.
 \\
 \\
-
 For the searcher endpoint, a way to categorize the product will be
 needed. Because of this, Spacy will be used, which lets us extract keywords and
 match against more general tags. For example, it can categorize
@@ -425,7 +418,6 @@ match against more general tags. For example, it can categorize
 search on the ``fruit'' tag.
 \\
 \\
-
 To achieve this purpose, we store the tags that are currently used in a
 table, and we have a many-to-many relationship between the Product and
 Tag table. We made a table for the Tag instead of an enumeration as the
@@ -433,14 +425,12 @@ Tag table will be increased programmatically when it encounters a new tag
 that does not relate to anything at all.
 \\
 \\
-
 In the near future and given the fact that the clients won't know about
 this inside feature, we will rearrange the tags to minimize the distance
 and provide a better support.
 
 
 \subsection{Formal Offer module}
-
 In this module we will have the models that have the responsibility of
 creating formal offers. The most important model is the FormalOffer,
 which contains the necessary information to create the unsigned PDF, as
@@ -450,7 +440,6 @@ related to the times the formal offer is sent in the chat. At the end,
 the PDF will be agreed upon and signed by both enterprises.
 \\
 \\
-
 A feature to provide some kind of template in the Formal Offer for the
 users was required. The ideal product is to have some kind of Natural
 Language Processing service that tries to create a Formal Offer based on
@@ -461,7 +450,6 @@ could be given as a template. For this reason, a relation between the
 Product model and the FormalOffer model is needed.
 \\
 \\
-
 The problem is that when the clients start a chat for a product, a
 Formal Offer is not created after some time. Additionally, there is no
 guarantee that a formal offer will be created for every chat that has
@@ -471,28 +459,62 @@ storing it in a FormalOffer where all the other values are Null. With
 this solution in mind, the Encounter model was created.
 \\
 \\
-
-\# Web application The administration use case for our application was
-done by the Django framework. This can be seen at the screenshots
-\textbf{TODO: put the screenshots accordingly}. Additionally, some other
+\section{Web application}
+The administration use case for our application was
+done by the Django framework. This can be seen at the screenshots [\ref{fig:admin-1}, \ref{fig:admin-2}, 
+\ref{fig:admin-3}, \ref{fig:admin-4}, \ref{fig:admin-5}].
+\\
+\\
+Additionally, some other
 form of documentation was provided by the endpoints, including OpenAPI
 and swagger docs. This lets the developers have a clear understanding of
 what can be done in the API, which will help later on the development of
 the Android and the Web application.
 \\
 \\
-
 The relations in the dashboard are done as shown in the screenshots: the
 models are grouped in the application that registered them, and provide
 an interface to query, insert, update and delete items in the database.
 \\
 \\
-
 It was decided that some statistics about the application should be on
 the administration tab, but it was left in the backlog for the third
 sprint.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{img/admin-img-1.png}
+	\caption{Admin login.}
+	\label{fig:admin-1}
+\end{figure}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{img/admin-img-2.png}
+	\caption{General dashboard. With this you can look all the tables and the last updates.}
+	\label{fig:admin-2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{img/admin-img-3.png}
+	\caption{Detail of a Table. In this image , all the records in product can be looked on.}
+	\label{fig:admin-3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{img/admin-img-4.png}
+	\caption{Creation of a product as a form.}
+	\label{fig:admin-4}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{img/admin-img-5.png}
+	\caption{When a record is created, we can see it in the table page along with message.}
+	\label{fig:admin-5}
+\end{figure}
 \subsection{Authentication}
 
 The problem was solved by using two well known apps in the Django
