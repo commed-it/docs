@@ -1,5 +1,5 @@
-\documentclass{article}
-
+% !TeX spellcheck = en_US
+\documentclass[a4papaer]{article}
 
 \usepackage[utf8]{inputenc}
 \usepackage{latexsym}
@@ -13,6 +13,7 @@
 \usepackage{graphicx}
 \usepackage{makeidx}
 \usepackage{datetime}
+\usepackage{float}
 \usepackage{multicol}
 \usepackage{setspace}
 \usepackage{enumerate}
@@ -51,8 +52,8 @@
 %%%%%%%%%%%%% CONFIG FILE %%%%%%%%%%%%%
 
 \nc{\mytitle}{Sprint 1}
-\nc{\mysubtitle}{Financial Case}
-\nc{\authors}{Oriol Alàs Cercós, Nicolas Arias, Yassine Elkihal,\\ Joaquim Picó Mora, Sergi Simón Balcells, Emina Hanzic}
+\nc{\mysubtitle}{Commed}
+\nc{\authors}{Oriol Alàs Cercós, Nicolas Arias, Yassine Elkihal, Emina Hanzic\\ Joaquim Picó Mora, Sergi Simón Balcells}
 \nc{\datetime}{27\supindex{th} of October, 2021}
 \nc{\assignatura}{IT Project Management}
 \nc{\professorat}{Juan Enrique Garrido Navarro, Josep Escribà Garriga}
@@ -69,16 +70,16 @@
 %%%%%%%%%%%%%%%%% MATH %%%%%%%%%%%%%%%%
 
 \nc{\prob}[1]{P({#1})}
-\nc{\probl}[2]{P({#1}|{#2})}
+\nc{\probl}[2]{P({#1\newpage}|{#2})}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%% TREE CREATOR %%%%%%%%%%%%
 
 \setpapersize{A4}
-\author{Oriol Alàs Cercós}
-\date{29 d'Abril del 2019}
+\author{Oriol Alàs Cercós, Nicolas Arias, Yassine Elkihal, Emina Hanzic\\ Joaquim Picó Mora, Sergi Simón Balcells}
+\date{27\supindex{th} of October, 2021}
 
-\def\contentsname{Índex}
+\def\contentsname{Table of Contents}
 \begin{document}
 	
 	
@@ -135,6 +136,7 @@
 	\listoftables
 	\thispagestyle{empty}
 	\newpage
+	\subfile{techdoc.tex}
 	\section{Financial Case}
 	\subfile{doc.tex}
 \end{document}
