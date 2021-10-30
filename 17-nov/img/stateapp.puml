@@ -68,6 +68,7 @@ state Registered {
             ListChat : A list of chats like Whatsapp, Telegram...
             ListChat : The user can search for a chat
             ListChat : The user can press a chat and the conversation screen will be opened
+            LsitChat : In each item, the product only shows an small image if it has, the name, the owner, and the last message.
         }
         
         ListChat -right-> ConversationScreen : Press a conversation
@@ -83,7 +84,25 @@ state Registered {
     ConversationScreen -left-> Profile : Go to the other user profile
 
     state FormalOffer {
+        [*] --> ListFormalOffer
+        ListFormalOffer --> FormalOfferDetail : The user has pressed a formal offer.
 
+        state ListFormalOffer {
+            ListFormalOffer : A list of formal offers
+            ListFormalOffer : The user can search for a formal offer.
+            ListFormalOffer : The user can press a formal offer to see all the details.
+            ListFormalOffer : Each item must have the name of the owner of the publication and product/service which has started the interaction.
+        }
+
+        state FormalOfferDetail {
+            FormalOfferDetail : It must show:
+            FormalOfferDetail : The name of the owner of the product/service which has started the interaction.
+            FormalOfferDetail : The version of the formal offer
+            FormalOfferDetail : The contract TextField
+            FormalOfferDetail : The pdf attachment.
+        }
+
+        FormalOfferDetail --> ListFormalOffer : Go Back
     }
 
     MainScreen -down-> FormalOffer : FormalOffer button from down-menu.
@@ -94,8 +113,13 @@ state Registered {
 }
 
 state PublicationDetail {
-
+    PublicationDetail : It has to be shown the owner, title, description, latitude, longitude and tags.
+    PublicationDetail : It has to be a link to the owner
+    PublicationDetail : There will be a button to start the chat if only if the user is registered and logged.
 }
+
+PublicationDetail --> Profile : The user has press to the link of the owner
+PublicationDetail --> ConversationScreen : A logged user can press a button to start the chat
 
 initialNotRegistered -right-> PublicationDetail : Press a publication
 MainScreen -right-> PublicationDetail : Press a publication
