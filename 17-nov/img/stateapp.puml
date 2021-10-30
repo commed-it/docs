@@ -1,0 +1,103 @@
+@startuml stateapp
+!include themes/puml-theme-cerulean-outline.puml
+
+skinparam backgroundColor #FFFFFF
+skinparam scale 100
+skinparam dpi 100
+skinparam state {
+    AttributeFontColor Black
+    BackgroundColor AliceBlue
+}
+[*] -right-> NotRegistered : The user is not registered.
+[*] -right-> Registered : The user is registered.
+
+state NotRegistered {
+    NotRegistered : The user is not registered, limited functions.
+    [*] -right-> initialNotRegistered
+    state "Not Registered Main Screen" as initialNotRegistered
+    state "Initial Login State" as login
+    state "Bad Login State" as bad_login
+    state RegisterScreen
+
+    initialNotRegistered : The user must search and see publications
+    initialNotRegistered : The user can press a publication.
+    initialNotRegistered : The user can press the button to log in and register
+    initialNotRegistered : The down-menu is disabled as the user is not already logged in
+
+    initialNotRegistered --> login : Press button of the image profile
+    login --> initialNotRegistered : Go Back button
+    login: The user can press a button to go to register page if it is not already registered.
+    login : The user put the username and password to enter
+
+    login -> bad_login : User or Password are incorrect.
+    bad_login -left-> initialNotRegistered : Go Back button
+    bad_login: The user can press a button to go to register page if it is not already registered.
+    bad_login : The user put the username and password to enter
+
+    login -down-> RegisterScreen : Press button/link for registration
+    bad_login -> RegisterScreen : Press button/link for registration
+    RegisterScreen --> login : Go Back
+    RegisterScreen -> RegisterScreen : Data are incorrect
+    RegisterScreen : The user must put the NIF, name, contact info and description.
+    RegisterScreen : There is a button to go back
+    RegisterScreen : There is a button to register
+}
+
+RegisterScreen -down-> Registered : Registration done correctly.
+login -down-> Registered : Login done correctly.
+
+state Profile {
+
+}
+
+state Registered {
+    state MainScreen
+    [*] -right-> MainScreen
+    MainScreen : The user must search and see publications
+    MainScreen : The user can press a publication.
+    MainScreen : The user can press the button of their profile.
+    MainScreen : The down-menu is able as the user has already logged in
+
+    MainScreen -down-> Profile : Press the button of user's profile
+    Profile : Can see NIF, name, Contact Info and Description
+
+    state Chat {
+
+        [*] -> ListChat
+        state ListChat {
+            ListChat : A list of chats like Whatsapp, Telegram...
+            ListChat : The user can search for a chat
+            ListChat : The user can press a chat and the conversation screen will be opened
+        }
+        
+        ListChat -right-> ConversationScreen : Press a conversation
+        ConversationScreen -left-> ListChat : Go Back
+
+        state ConversationScreen {
+            ConversationScreen : Can send messages to another user
+        }
+    }
+
+    MainScreen -down-> Chat : Chat button from down-menu.
+
+    ConversationScreen -left-> Profile : Go to the other user profile
+
+    state FormalOffer {
+
+    }
+
+    MainScreen -down-> FormalOffer : FormalOffer button from down-menu.
+    Chat -left-> FormalOffer : FormalOffer button from down-menu.
+    FormalOffer -right-> Chat : Chat button from down-menu.
+
+
+}
+
+state PublicationDetail {
+
+}
+
+initialNotRegistered -right-> PublicationDetail : Press a publication
+MainScreen -right-> PublicationDetail : Press a publication
+
+@enduml
