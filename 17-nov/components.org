@@ -1,0 +1,58 @@
+#+TITLE: Components
+In this file it will be described the general architecture of the components in flutter.
+
+* Component Design
+#+begin_src plantuml :file img/components-diagram.png :dir .
+!theme plain
+
+class ProductItemWidget<<(W, #FFFFFF)>> {
+        product : ProductItemModel
+}
+
+ProductItemWidget -- "1" GenericCarrousel
+ProductItemWidget -- "1" GenericSummary
+
+class ProductItemModel {
+        title: String
+        logo: Img
+        enterprise: String
+        listOfImages : List<Img>
+}
+
+class GenericSummary<<(W, #FFFFFF)>> {
+        logo : Img
+        title : String
+        subTitle : String
+        optionalWidget : Widget?
+}
+
+class GenericCarrousel<<W, #FFFFFF)>> {
+        listOfImages : List<Img>
+}
+
+class FormalOfferItem<<(W, #FFFFFF)>> {
+
+}
+
+class FormalOfferItemModel {
+
+}
+
+class ChatItem<<(W, #FFFFFF)>> {
+
+}
+
+class ChatItemModel {
+        logo : img
+        enterprise : String
+        product : String
+}
+
+
+#+end_src
+
+#+RESULTS:
+[[file:img/components-diagram.png]]
+
+* General images of the components
+* State
