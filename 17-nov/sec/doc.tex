@@ -30,10 +30,18 @@ According to the marketing strategy, it has been set that the main focus in the 
 	\item Logistic services.
 \end{itemize}
 After creating the small ecosystem, the focus will be on strengthening the ecosystem and widening the smaller ones in order to join with the others and make them become a greater one.
+
+Explain why door-to-door strategy
+
+Costs : 
+Advertising on Linkedin because we are a B2B business
+Freelance Salesman
+
+
 \subsection{Speculation and flow chart}
 In order to create the simulation of the revenue, a speculation has been done on how many contracts will be held by our application in a month. This conjecture has been simulated over the first four years of the company. The revenue functions consists on these three variables:
 \begin{itemize}
-	\item The income from the percentage of the contract between the entities. This variable has the main weight of the function as it is the main income generator.
+	\item The income from the percentage of the contract between the entities. This variable has the main weight of the function as it is the main income generator. Mean value for small business contracts : 1000€. Mean value for big business contracts : 4000€. 
 	\item The revenue from the paid publications. In order to ease the simulation and know how many publications will be paid, a relaxation of the problem has been made. The paid publications ratio has been calculated with an approximation, which also is directly correlated with the amount of contracts held.
 	\item The income from the payments for advertising a publication. This variable has also been approximated making a correlation from the number of contracts.
 \end{itemize}
@@ -49,13 +57,57 @@ Three scenarios have been made in order to show a possible but different project
 	\item An optimistic scenario, in which the contracts’ function has an exponential form.
 	\item A more realistic scenario, which also has linear function in the first years but in the lasts, it gets more the way of an exponential function.
 \end{itemize}
-In Figure \ref{fig:cashflow}, we can see the contracts’ function of all the scenarios and the total cost function, which is the same in all scenarios. In the optimistic scenario, we will start to recover the initial investment at the beginning of the first year whereas in the worst case, we will start generating benefits at the beginning of the third year.
-\begin{figure}[h]
+\subsection{Pessimistic Scenario}
+Number of contracts at the end of each year : 
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Year}                     & 1  & 2   & 3   & 3   \\ \hline
+\textbf{Small Business Contracts} & 65 & 100 & 170 & 280 \\ \hline
+\textbf{Big Business Contracts}   & 0  & 0   & 40  & 73  \\ \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
 	\centering
-	\includegraphics[width=15cm]{CashFlow.png}
-	\caption{Cash flow of the different revenue function from scenarios and cost function}
-	\label{fig:cashflow}
-\end{figure}
+	\includegraphics[width=11.3cm]{pessimistic.png}
+	\caption{Pessimistic Cash Flow}
+	\label{tab:pessimistic}
+\end{table}
+
+\subsection{Realistic Scenario}
+Number of contracts at the end of each year : 
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Year}                     & 1  & 2   & 3   & 3   \\ \hline
+\textbf{Small Business Contracts} & 77 & 160 & 230 & 412 \\ \hline
+\textbf{Big Business Contracts}   & 0  & 0   & 60  & 137 \\ \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+	\centering
+	\includegraphics[width=11.3cm]{realistic.png}
+	\caption{Realistic Cash Flow}
+	\label{tab:realistic}
+\end{table}
+
+\subsection{Optimistic Scenario}
+Number of contracts at the end of each year : 
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Year}                     & 1  & 2   & 3   & 3   \\ \hline
+\textbf{Small Business Contracts} & 85 & 200 & 270 & 500 \\ \hline
+\textbf{Big Business Contracts}   & 0  & 0   & 74  & 180 \\ \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+	\centering
+	\includegraphics[width=11.3cm]{optimistic.png}
+	\caption{Optimistic Cash Flow}
+	\label{tab:optimistic}
+\end{table}
+
 \subsection{Economic indices comparison between scenarios}
 All information related to the simulation and prediction about the first four years of the platform can be found in the spreadsheet attached to this document. Even though, the cash flows of each scenario can be found in \textit{Tables \ref{tab:pessimistic}, \ref{tab:realistic} and \ref{tab:optimistic}.}
 In this section, we will begin by comparing the three scenarios using the different indexes calculated above. \\
@@ -77,24 +129,13 @@ Although \texttt{ROI} gave us bad values, specially in the pessimistic scenario,
 	\caption{Indices comparison between the three scenarios}
 	\label{tab:indicies}
 \end{table}
-\begin{table}[H]
-	\centering
-	\includegraphics[width=11.3cm]{pessimistic.png}
-	\caption{Pessimistic Cash Flow}
-	\label{tab:pessimistic}
-\end{table}
-\begin{table}[H]
-	\centering
-	\includegraphics[width=11.3cm]{realistic.png}
-	\caption{Realistic Cash Flow}
-	\label{tab:realistic}
-\end{table}
 
-\begin{table}[H]
+In Figure \ref{fig:cashflow}, we can see the contracts’ function of all the scenarios and the total cost function, which is the same in all scenarios. In the optimistic scenario, we will start to recover the initial investment at the beginning of the first year whereas in the worst case, we will start generating benefits at the beginning of the third year.
+\begin{figure}[h]
 	\centering
-	\includegraphics[width=11.3cm]{optimistic.png}
-	\caption{Optimistic Cash Flow}
-	\label{tab:optimistic}
-\end{table}
+	\includegraphics[width=15cm]{CashFlow.png}
+	\caption{Cash flow of the different revenue function from scenarios and cost function}
+	\label{fig:cashflow}
+\end{figure}
 
 \end{document}
