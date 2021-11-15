@@ -4,7 +4,7 @@
 
 
 \let\texteuro\euro
-\subsection{Monezitation Strategy}
+\subsection{Monetization Strategy}
 The monetization strategy of Commed is mainly based on a percentage of the value of the commercial agreement contracts. When a contract has been finally set, an invoice will be generated. The value of the invoices depends on the value of the generated contract in order to make the invoices affordable for all types and sizes of companies. Therefore, in the first four years, the search of the companies and the other features will be free. After these beginning years, it is something to study and plan if some other features can become freemium.
 \\
 \\
@@ -22,7 +22,7 @@ As the search will be free, the companies could be able to negotiate and set the
 \subsection{Marketing Strategy}
 According to the marketing strategy, it has been set that the main focus in the first years will be getting the small and medium sized companies, in order to quickly popularize the platform and create small business ecosystems. For example, the main ecosystems to focus on in the first year will be in order of importance:
 \begin{itemize}
-	\item Restauration, butchers and other food providers.
+	\item Restoration, butchers and other food providers.
 	\item Food industry and supermarkets.
 	\item Organizations for seasonal work to get temporary contracts.
 	\item Cleaning services.
@@ -31,11 +31,10 @@ According to the marketing strategy, it has been set that the main focus in the 
 \end{itemize}
 After creating the small ecosystem, the focus will be on strengthening the ecosystem and widening the smaller ones in order to join with the others and make them become a greater one.
 
-Explain why door-to-door strategy
+We choose to operate a door-to-door strategy to convince our first clients. Our sales mans will convince them by proposing the pros of using our service, and state our welcome offer.
+As for the advertising channels, we have chosen Linkedin, because we are in a B2B market, so our target are companies. 
+As things progress, we rely on word of mouth to acquire more customers, both publishers and service seekers.
 
-Costs : 
-Advertising on Linkedin because we are a B2B business
-Freelance Salesman
 
 
 \subsection{Speculation and flow chart}
@@ -43,7 +42,7 @@ In order to create the simulation of the revenue, a speculation has been done on
 \begin{itemize}
 	\item The income from the percentage of the contract between the entities. This variable has the main weight of the function as it is the main income generator. Mean value for small business contracts : 1000€. Mean value for big business contracts : 4000€. 
 	\item The revenue from the paid publications. In order to ease the simulation and know how many publications will be paid, a relaxation of the problem has been made. The paid publications ratio has been calculated with an approximation, which also is directly correlated with the amount of contracts held.
-	\item The income from the payments for advertising a publication. This variable has also been approximated making a correlation from the number of contracts.
+	\item The income from the payments for advertising a publication. This variable has also been approximated making a correlation from the number of contracts. We assumed that 5\% of the publications are ads, for a cost of 30€ each.
 \end{itemize}
 According to the costs, its function depends on these variables:
 \begin{itemize}
@@ -67,12 +66,15 @@ Number of contracts at the end of each year :
 \textbf{Big Business Contracts}   & 0  & 0   & 40  & 73  \\ \hline
 \end{tabular}
 \end{table}
+In this scenario, the number of contracts increase linearly.
 \begin{table}[H]
 	\centering
 	\includegraphics[width=11.3cm]{pessimistic.png}
 	\caption{Pessimistic Cash Flow}
 	\label{tab:pessimistic}
 \end{table}
+
+ROI = (Cashflow - Total Cost) / Total Cost
 
 \subsection{Realistic Scenario}
 Number of contracts at the end of each year : 
@@ -84,6 +86,7 @@ Number of contracts at the end of each year :
 \textbf{Big Business Contracts}   & 0  & 0   & 60  & 137 \\ \hline
 \end{tabular}
 \end{table}
+In this scenario, the number of contracts is the mean between the pessimistic and the optimistic scenarios.
 \begin{table}[H]
 	\centering
 	\includegraphics[width=11.3cm]{realistic.png}
@@ -101,6 +104,7 @@ Number of contracts at the end of each year :
 \textbf{Big Business Contracts}   & 0  & 0   & 74  & 180 \\ \hline
 \end{tabular}
 \end{table}
+In this scenario, the number of contracts increase exponentially.
 \begin{table}[H]
 	\centering
 	\includegraphics[width=11.3cm]{optimistic.png}
@@ -115,17 +119,17 @@ In this section, we will begin by comparing the three scenarios using the differ
 First, we want to show you the \texttt{ROI} index between the different scenarios, which can be found in Table \ref{tab:roi}. The \texttt{ROI} has been calculated every year, as it is more significant to us to analyze this information. Although it can be found that the \texttt{ROI} index in the first year is similary between the scenarios, the pessimistic scenario has some challenges to increase the ROI so as to be positive while optimistic and, actually, the realistic appear to have a better return on investment.
 \begin{table}[H]
 	\centering
-	\includegraphics[width=11cm]{roi.png}
+	\includegraphics[width=11cm]{roi2.png}
 	\caption{ROI Index comparison between the three scenarios}
 	\label{tab:roi}
 \end{table}
 According to the other indices, mostly all of them have better values in the optimistic scenario. One of the most valuable indices is the \texttt{PBP} in terms of months. Here, we can see that the optimistic has only 9 months of \texttt{PayBack Period}. On the other hand, realistic scenario is a promising case, as in only one year and a month we would be able to recover the cost of the investment.
 \\
 \\
-Although \texttt{ROI} gave us bad values, specially in the pessimistic scenario, we can see that in all the scenarios the \texttt{IRR} is positive. That gave us good information to know if someone is going to invest on the company. The only one index that has the same behaviour in all the cases it is the \texttt{BEP}, which is calculated monthly. That is because the costs are fixed, as the lifecycle of the software would be large.
+Although \texttt{ROI} gave us bad values, specially in the pessimistic scenario, we can see that in all the scenarios the \texttt{IRR} is positive. For the interest rate, we chose 1,05, that is quite similar to the inflation rate. That gave us good information to know if someone is going to invest on the company. The only one index that has the same behaviour in all the cases it is the \texttt{BEP}, which is calculated monthly. That is because the costs are fixed, as the lifecycle of the software would be large.
 \begin{table}[H]
 	\centering
-	\includegraphics[width=11cm]{indices.png}
+	\includegraphics[width=11cm]{indices2.png}
 	\caption{Indices comparison between the three scenarios}
 	\label{tab:indicies}
 \end{table}
