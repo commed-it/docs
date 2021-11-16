@@ -1,0 +1,13 @@
+# Fdb version 3
+["pdflatex"] 1637103365 "/home/quimpm/master/proj_tic/docs/17-nov/sec/techdoc.tex" "/home/quimpm/master/proj_tic/docs/17-nov/sec/techdoc.pdf" "techdoc" 1637103365
+  "/home/quimpm/master/proj_tic/docs/17-nov/sec/subfiles.cls" 0 -1 0 ""
+  "/home/quimpm/master/proj_tic/docs/17-nov/sec/techdoc.aux" 1637103365 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/quimpm/master/proj_tic/docs/17-nov/sec/techdoc.tex" 1637103364 8753 9534c3a15f340c9a70661c8192064723 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1617738065 39911 2da6c67557ec033436fe5418a70a8a61 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1637098223 2812676 5024a2c9d076fcf027339cd40576c540 ""
+  "subfiles.cls" 0 -1 0 ""
+  "techdoc.tex" 1637103364 8753 9534c3a15f340c9a70661c8192064723 ""
+  (generated)
+  "/home/quimpm/master/proj_tic/docs/17-nov/sec/techdoc.log"
+  "techdoc.log"
+  "/home/quimpm/master/proj_tic/docs/17-nov/sec/techdoc.pdf"
