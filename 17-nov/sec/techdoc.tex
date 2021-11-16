@@ -61,10 +61,12 @@ well as different ways of interacting with it.
 \item
   \textbf{US14:} As a user, I want to receive billing and invoices
   regarding the signed commercial transaction contract.
+  
+  %TODO @oriolac add the new User Stories
 \end{itemize}
 
-\hypertarget{sprint-1}{%
-\subsection{Sprint 1}\label{sprint-1}}
+
+\subsection{Sprint 2}
 
 The next step was creating a Scrum Board inside a Github project with
 the following structure:
@@ -95,59 +97,9 @@ member of the team wanted to contribute. By having each member choose
 their own work, it makes it easier to stay motivated.
 \\
 \\
-Sprint 1 Backlog:
+Sprint 2 Backlog:
 \begin{verbatim}
-- Configure DB
-    - size: 2
-- Configure Swager
-    - size: 3
-- Authentication for some API endpoints
-    - size: 8
-    - US1, US2
-- Conteinarize Aplication:
-    - size: 5
-- Create Enterprise Model
-    - size: 1
-    - US3
-- Create Enterprise CRUD
-    - size: 3
-    - US3
-- Create Product Model
-    - size: 1
-    - US6
-- Create Product CRUD
-    - size: 3
-    - US6
-- Create CI Pipeline for running tests
-    - size: 5
-- Financial Case - Cash Flow
-    - size: 8
-- Financial Case - Flow Chart
-    - size: 8
-- Financial Cas - Payback and Indices
-    - size: 3
-- Create Search endpoint
-    - size: 8
-    - US4
-- Digital Signature Service
-    - size: 13
-    - US11 US12
-- Create Encounter Model
-    - size: 1
-    - US10
-- Create Encounter CRUD
-    - size: 3
-    - US10
-- Create Formal Offer Model
-    - size: 1
-    - US 10
-- Create Formal Offer CRUD
-    - size: 3
-    - US: 10
-- Automatic Deploy CD
-    - size: 5
-- Admin Statistics
-    - size: 8
+Add all the backlog for this sprint
 \end{verbatim}
 
 \section{Requirements - Product}
@@ -209,6 +161,11 @@ Non Functional Requirements:
   the possibility of adding new features in the future.
 \end{itemize}
 
+\textbf{Sprint 2:}
+
+Functional Requirements:
+
+%TODO add functional requirements made in this sprint. Maybe some should be put in a general manner.
 \section{Main use cases}
 
 \begin{figure}[h]
@@ -230,7 +187,7 @@ Non Functional Requirements:
     \textbf{Purpose:} Let a user register into the application system
   \item
     \textbf{Description:} Provides a screen with a form in which the
-    user is able to fulfil it and send the information to the system in
+    user is able to fulfill it and send the information to the system in
     order to be registered.
   \end{itemize}
 \item
@@ -372,6 +329,9 @@ resources from our Application Server. The first one will be the Android
 client, which will have the whole user interface. Secondly, a Web client
 will be made with a similar user interface, but also administration
 pages for the database.
+\subfile{mobile.tex} % TODO add in these files
+\subfile{frontend.tex}
+
 \section{Database model}
 The database model can be seen at figure \ref{fig:model-uml}. In the following
 sections, it will be reviewed which models shape the application and
@@ -459,6 +419,8 @@ storing it in a FormalOffer where all the other values are Null. With
 this solution in mind, the Encounter model was created.
 \\
 \\
+\section{Main Screens} \label{sec:views}
+
 \section{Web application}
 The administration use case for our application was
 done by the Django framework. This can be seen at the screenshots [\ref{fig:admin-1}, \ref{fig:admin-2}, 
