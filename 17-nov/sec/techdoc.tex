@@ -417,7 +417,7 @@ The database model can be seen at figure \ref{fig:model-uml}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\linewidth]{img/database-model.png}
+\includegraphics[width=\linewidth]{img/database-model-new.png}
 \caption{UML diagram of the models.}
 \label{fig:model-uml}
 \end{figure}
@@ -425,9 +425,134 @@ The database model can be seen at figure \ref{fig:model-uml}.
 \subsection{Modifications on the models}
 During the implementation of the clients, it was found the lack of the title of the product. As it was discovered in early ages of the sprint, it has been created an issue for it. Also, it was found the lack of an image that would represent the logo of the enterprise and an another one which would correspond to the banner.
 \section{Main Screens} \label{sec:views}
-In the first stage of the designing of the mobile application, it was held a state diagram to start representing the management and the navigation of the user.
+In the first stage of the designing of the mobile application, it was held a state diagram to start representing the management and the navigation of the user. This diagram can be shown in \ref{fig:stateapp}.
+\begin{figure}
+	\centering
+	\includegraphics[width=14cm]{stateapp.png}
+	\label{fig:stateapp}
+	\caption{State diagram of the application.}
+\end{figure}
 \subsection{Mobile Application}
 %TODO: Mobile Application screens.
+\subsubsection{Wireframe}
+It can be seen in the next images the main screens of the wireframe. At first, it can be seen a list of product
+as the main page of the application, in the image \ref{fig:wire-1}. The next image \ref{fig:wire-2} contains the login screen, which can be accessed by clicking on the user icon the image before. The register \ref{fig:wire-3} is accessed by clicking at the sign-up option.\\
+\\
+The image \ref{fig:wire-4} contains the list of chats that you currently have for every product or service, and the \ref{fig:wire-5} has the detail of a particular chat, that can be seen when clicking in a item from the list of chats. The next image contains the list of formal offers \ref{fig:wire-6}. Both lists can be accessed when clicking on the icon in the bottom menu if the application.\\
+\\
+The last two images contains the detail of an enterprise \ref{fig:wire-7} and a submenu for things related to the user \ref{fig:wire-8}. The first image can be accessed when clicking the logo of an enterprise, and the last one can be seen when clicking on the user logo. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/home-page.jpeg}
+	\caption{Home mobile screen, it lists the products}
+	\label{fig:wire-1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/login-page.jpeg}
+	\caption{Login view}
+\label{fig:wire-2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/register-page.jpeg}
+	\caption{Register view}
+	\label{fig:wire-3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/chat-list.jpeg}
+	\caption{List of the current chats.}
+	\label{fig:wire-4}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/chat-conversation.jpeg}
+	\caption{A chat conversation.}
+	\label{fig:wire-5}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/formal-offers.jpeg}
+	\caption{List of formal offers.}
+	\label{fig:wire-6}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/enterprise-profile.png}
+	\caption{An enterprise profile.}
+	\label{fig:wire-7}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/menu-profile.jpeg}
+	\caption{Menu Profile.}
+	\label{fig:wire-8}
+\end{figure}
+
+
+\subsubsection{Application}
+In this section, you will encounter all the screens that the application has currently. The first three images correspond to the home, which lists some products, the list of chats, and the list of formal offers. This can be accessed when clicking at the bottom view. It can not be slides, as it was found confusing when using the images' carousel.\\
+\\
+The next page \ref{fig:mobile-screen-5} is the profile of an enterprise, which is triggered when clicking a logo of the enterprise, in the pages before. In the figure \ref{fig:mobile-screen-4}, the chat between two users can be seen. It also can be seen a formal offer version, and although a formal offer version can only be send by the owner of the product, it was though that showcasing both items in the mock would be better. The next image \ref{fig:mobile-screen-3} is the searcher of the app, that can be triggered when clicking the magnifying  glass icon. It has the history of the items searched, which can be deleted when clicking the trash button, or replicated when clicking the text.\\
+\\
+Finally, in the images \ref{fig:mobile-screen-2}, \ref{fig:mobile-screen-1}, it is shown the registration and the login screens.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{img/mobile-screen-8.jpg}
+	\caption{Home mobile screen, it lists the products}
+	\label{fig:mobile-screen-8}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/mobile-screen-7.jpg}
+\caption{List of the current chats.}
+\label{fig:mobile-screen-7}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/mobile-screen-6.jpg}
+\caption{List of the current formal offers.}
+\label{fig:mobile-screen-6}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/mobile-screen-5.jpg}
+\caption{Detail of an enterprise, it can be found when clicking the logo of it.}
+\label{fig:mobile-screen-5}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/mobile-screen-4.jpg}
+\caption{Chat screen.}
+\label{fig:mobile-screen-4}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/mobile-screen-3.jpg}
+\caption{Recommendations screen.}
+\label{fig:mobile-screen-3}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/mobile-screen-2.jpg}
+\caption{Login view.}
+\label{fig:mobile-screen-2}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/mobile-screen-1.jpg}
+\caption{Registration screen.}
+\label{fig:mobile-screen-1}
+\end{figure}
+
 
 \subsection{Web Client}
 %TODO: Web Client Screens.
