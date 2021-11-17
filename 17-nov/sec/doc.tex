@@ -58,7 +58,8 @@ Three scenarios have been made in order to show a possible but different project
 \end{itemize}
 \subsection{Pessimistic Scenario}
 Number of contracts at the end of each year : 
-\begin{table}[]
+\begin{table}[H]
+	\centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 \textbf{Year}                     & 1  & 2   & 3   & 3   \\ \hline
@@ -69,16 +70,18 @@ Number of contracts at the end of each year :
 In this scenario, the number of contracts increase linearly.
 \begin{table}[H]
 	\centering
-	\includegraphics[width=11.3cm]{pessimistic.png}
+	\includegraphics[width=14cm]{img/pessimistic.png}
 	\caption{Pessimistic Cash Flow}
 	\label{tab:pessimistic}
 \end{table}
-
-ROI = (Total Income - Total Cost) / Total Cost
+\[
+\textrm{ROI} = \frac{\textrm{Total Income }- \textrm{Total Cost}}{\textrm{Total Cost}}
+\]
 
 \subsection{Realistic Scenario}
 Number of contracts at the end of each year : 
-\begin{table}[]
+\begin{table}[H]
+	\centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 \textbf{Year}                     & 1  & 2   & 3   & 3   \\ \hline
@@ -89,14 +92,15 @@ Number of contracts at the end of each year :
 In this scenario, the number of contracts is the mean between the pessimistic and the optimistic scenarios.
 \begin{table}[H]
 	\centering
-	\includegraphics[width=11.3cm]{realistic.png}
+	\includegraphics[width=14cm]{img/mean.png}
 	\caption{Realistic Cash Flow}
 	\label{tab:realistic}
 \end{table}
 
 \subsection{Optimistic Scenario}
 Number of contracts at the end of each year : 
-\begin{table}[]
+\begin{table}[H]
+	\centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 \textbf{Year}                     & 1  & 2   & 3   & 3   \\ \hline
@@ -107,7 +111,7 @@ Number of contracts at the end of each year :
 In this scenario, the number of contracts increase exponentially.
 \begin{table}[H]
 	\centering
-	\includegraphics[width=11.3cm]{optimistic.png}
+	\includegraphics[width=14cm]{img/optimistic.png}
 	\caption{Optimistic Cash Flow}
 	\label{tab:optimistic}
 \end{table}
