@@ -417,16 +417,21 @@ The database model can be seen at figure \ref{fig:model-uml}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\linewidth]{img/database-model.png}
+\includegraphics[width=\linewidth]{img/database-model-new.png}
 \caption{UML diagram of the models.}
 \label{fig:model-uml}
 \end{figure}
 
 \subsection{Modifications on the models}
-%TODO: Explain the modifications that we did in The model.
-
+During the implementation of the clients, it was found the lack of the title of the product. As it was discovered in early ages of the sprint, it has been created an issue for it. Also, it was found the lack of an image that would represent the logo of the enterprise and an another one which would correspond to the banner.
 \section{Main Screens} \label{sec:views}
-
+In the first stage of the designing of the mobile application, it was held a state diagram to start representing the management and the navigation of the user. This diagram can be shown in \ref{fig:stateapp}.
+\begin{figure}
+	\centering
+	\includegraphics[width=14cm]{stateapp.png}
+	\label{fig:stateapp}
+	\caption{State diagram of the application.}
+\end{figure}
 \subsection{Mobile Application}
 %TODO: Mobile Application screens.
 \subsubsection{Wireframe}
@@ -550,7 +555,163 @@ Finally, in the images \ref{fig:mobile-screen-2}, \ref{fig:mobile-screen-1}, it 
 
 
 \subsection{Web Client}
-%TODO: Web Client Screens.
+
+\subsubsection{Wireframe}
+In this section, it is going to be shown the paper wireframe that was drawn. This contains the first ideas that had been thought for the dessign of the web application.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_1.jpeg}
+  \caption{FormalOffer Detail Sign screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_2.jpeg}
+  \caption{Product Detail screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_3.jpeg}
+  \caption{Products/Formal Offers Profile screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_4.jpeg}
+  \caption{Chat screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_5.jpeg}
+  \caption{Search screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_6.jpeg}
+  \caption{Profile screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_7.jpeg}
+  \caption{Register screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_8.jpeg}
+  \caption{Log In screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_9.jpeg}
+  \caption{Home Loged In screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_10.jpeg}
+  \caption{Formal Offer Send screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webwire_11.jpeg}
+  \caption{Home screen.}
+  \label{fig:webwire-screen-1}
+\end{figure}
+
+\subsubsection{Application}
+In this section we are going to show all the Screens that are actually in our application.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_2.png}
+  \caption{Home screen.}
+  \label{fig:webclient-screen-1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_3.png}
+  \caption{Log In screen.}
+  \label{fig:webclient-screen-2}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_4.png}
+  \caption{Registration screen.}
+  \label{fig:webclient-screen-3}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_5.png}
+  \caption{Product Details screen.}
+  \label{fig:webclient-screen-4}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_6.png}
+  \caption{Profile screen.}
+  \label{fig:webclient-screen-5}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_7.png}
+  \caption{Profile Products screen.}
+  \label{fig:webclient-screen-6}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_8.png}
+  \caption{Profile Products Loged In screen.}
+  \label{fig:webclient-screen-7}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_9.png}
+  \caption{Chat screen.}
+  \label{fig:webclient-screen-8}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_10.png}
+  \caption{Create Product screen.}
+  \label{fig:webclient-screen-9}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_11.png}
+  \caption{404 screen.}
+  \label{fig:webclient-screen-10}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_13.png}
+  \caption{Edit screen.}
+  \label{fig:webclient-screen-11}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_14.png}
+  \caption{Profile Loged In screen.}
+  \label{fig:webclient-screen-12}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient_15.png}
+  \caption{Delete Product screen.}
+  \label{fig:webclient-screen-13}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/webclient-16.jpg}
+  \caption{Search screen.}
+  \label{fig:webclient-screen-14}
+\end{figure}
+
 
 \section{Dailies}
 
