@@ -11,6 +11,8 @@ class Product <<persistent>> {
     + description : Text
     + latitude : Double
     + longitude : Double
+    ..
+    + title : Chars
 }
 
 class ProductImage <<persistent>> {
@@ -41,6 +43,9 @@ namespace enterprise {
         + name : Chars
         + contactInfo : Chars
         + description : RichText
+        ..
+        - logo : ImageFile
+        - banner : ImageFile
     }
 }
 
