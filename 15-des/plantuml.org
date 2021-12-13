@@ -1,0 +1,22 @@
+#+TITLE: Plantuml
+#+begin_src plantuml :file img/seq.png :dir .
+!theme cerulean-outline
+Client -> Server: "/chat/encounter/{id}/messages"
+Server --> Client : [msg1, msg2, msg3...]
+Client -> Server:  "/ws/chat/{id}/"
+Server -> Client: "yep"
+#+end_src
+
+#+RESULTS:
+[[file:img/seq.png]]
+
+
+#+begin_src json
+{
+  "user": id,
+  "type": "message" | "formalOffer",
+  "message": "text",
+  "formalOffer": formalOfferId,
+}
+
+#+end_src
