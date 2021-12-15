@@ -1,53 +1,17 @@
 \babel@toc {english}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Screenshot of the first days of the project kanban.}}{6}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Backend Sprint 3 milestone}}{8}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Web client Sprint 3 milestone}}{8}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Web client Sprint 3 milestone}}{9}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Use case diagram of the application.}}{11}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces General architecture of the application.}}{13}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces General architecture of the application.}}{14}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Redux Diagram.}}{16}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces UML diagram of the models.}}{19}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces State diagram of the application.}}{20}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Home mobile screen, it lists the products}}{21}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Login view}}{22}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Register view}}{23}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces List of the current chats.}}{24}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces A chat conversation.}}{25}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces List of formal offers.}}{26}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces An enterprise profile.}}{27}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Menu Profile.}}{28}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Home mobile screen, it lists the products}}{29}{figure.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces List of the current chats.}}{30}{figure.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces List of the current formal offers.}}{31}{figure.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Detail of an enterprise, it can be found when clicking the logo of it.}}{32}{figure.22}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Chat screen.}}{33}{figure.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Recommendations screen.}}{34}{figure.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Login view.}}{35}{figure.25}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Registration screen.}}{36}{figure.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces FormalOffer Detail Sign screen.}}{37}{figure.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Product Detail screen.}}{37}{figure.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Products/Formal Offers Profile screen.}}{37}{figure.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Chat screen.}}{38}{figure.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Search screen.}}{38}{figure.31}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Profile screen.}}{38}{figure.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Register screen.}}{39}{figure.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Log In screen.}}{39}{figure.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Home Loged In screen.}}{39}{figure.35}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Formal Offer Send screen.}}{40}{figure.36}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Home screen.}}{40}{figure.37}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Home screen.}}{40}{figure.38}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Log In screen.}}{41}{figure.39}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Registration screen.}}{41}{figure.40}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Product Details screen.}}{41}{figure.41}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Profile screen.}}{41}{figure.42}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Profile Products screen.}}{42}{figure.43}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Profile Products Loged In screen.}}{42}{figure.44}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Chat screen.}}{42}{figure.45}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Create Product screen.}}{42}{figure.46}%
-\contentsline {figure}{\numberline {47}{\ignorespaces 404 screen.}}{43}{figure.47}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Edit screen.}}{43}{figure.48}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Profile Loged In screen.}}{43}{figure.49}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Delete Product screen.}}{43}{figure.50}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Search screen.}}{44}{figure.51}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Cash flow of the different revenue function from scenarios and cost function}}{53}{figure.52}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Screenshot of the last days of the project kanban.}}{5}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Backend Sprint 3 milestone}}{7}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Web client Sprint 3 milestone}}{7}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Web client Sprint 3 milestone}}{7}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Use case diagram of the application.}}{9}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces General architecture of the application.}}{12}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces General architecture of the application.}}{13}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Redux Diagram.}}{14}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces UML diagram of the models.}}{18}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Home mobile screen, it lists the products}}{20}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Home mobile screen, it lists the products. Former / New}}{21}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Detail of an enterprise, it can be found when clicking the logo of it. Former / New}}{22}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Chat screen. Former / New}}{23}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Search products view. Former / New}}{24}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Home screen.}}{25}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Cash flow of the different revenue function from scenarios and cost function}}{34}{figure.16}%

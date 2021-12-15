@@ -383,69 +383,47 @@ The logo and the banner for an \texttt{Enterprise} had been finally added to the
 \\
 Finally, it has been added a Message model, that holds the information on the messages, and having fields regarding the author, the time of creation, the author and the message itself. This last field stores a JSON with the values that were sent on it, as it will only be needed in a JSON format and won't be queried against its parameters. Moreover, it simplifies the querying of a normalized database, as it holds different types of messages, which for now it's only \texttt{FormalOffer}s and text messages.
 \section{Main Screens} \label{sec:views}
-%TODO delete it, maybe?
-In the first stage of the designing of the mobile application, it was held a state diagram to start representing the management and the navigation of the user. This diagram can be shown in \ref{fig:stateapp}.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=14cm]{stateapp.png}
-	\label{fig:stateapp}
-	\caption{State diagram of the application.}
-\end{figure}
 \subsection{Mobile Application}
 \subsubsection{Application}
-% TODO change this.
-In this section, you will encounter all the screens that the application has currently. The first three images correspond to the home, which lists some products, the list of chats, and the list of formal offers. This can be accessed when clicking at the bottom view. It can not be slides, as it was found confusing when using the images' carousel.\\
-\\
-The next page \ref{fig:mobile-screen-5} is the profile of an enterprise, which is triggered when clicking a logo of the enterprise, in the pages before. In the figure \ref{fig:mobile-screen-4}, the chat between two users can be seen. It also can be seen a formal offer version, and although a formal offer version can only be send by the owner of the product, it was though that showcasing both items in the mock would be better. The next image \ref{fig:mobile-screen-3} is the searcher of the app, that can be triggered when clicking the magnifying  glass icon. It has the history of the items searched, which can be deleted when clicking the trash button, or replicated when clicking the text.\\
-\\
-Finally, in the images \ref{fig:mobile-screen-2}, \ref{fig:mobile-screen-1}, it is shown the registration and the login screens.
+In this section, it will be shown the changes in the views of the mobile application. It has been made some changes regarding authentication state in order to make the application more usable and accessible.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{img/mobile-screen-8.jpg}
+	\includegraphics[width=0.49\linewidth]{img/mobile/not_registered.png}
+	\includegraphics[width=0.49\linewidth]{img/mobile/login.png}
 	\caption{Home mobile screen, it lists the products}
+	\label{fig:not-registered}
+\end{figure}
+It has been put the profile button in the bottom menu bar as it must appear a label next to the icon. Also, it has been created the label next to the connect button to understand what means.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.48\linewidth]{img/mobile-screen-8.jpg}
+	\includegraphics[width=0.5\linewidth]{img/mobile/home.png}
+	\caption{Home mobile screen, it lists the products. Former / New}
 	\label{fig:mobile-screen-8}
 \end{figure}
+It has been added new information in the enterprise profile. For the next sprint, it will be required to be a button to access to a GPS application.
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\linewidth]{img/mobile-screen-7.jpg}
-\caption{List of the current chats.}
-\label{fig:mobile-screen-7}
-\end{figure}
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.5\linewidth]{img/mobile-screen-6.jpg}
-\caption{List of the current formal offers.}
-\label{fig:mobile-screen-6}
-\end{figure}
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.5\linewidth]{img/mobile-screen-5.jpg}
-\caption{Detail of an enterprise, it can be found when clicking the logo of it.}
+\includegraphics[width=0.47\linewidth]{img/mobile-screen-5.jpg}
+\includegraphics[width=0.52\linewidth]{img/mobile/enterprise.png}
+\caption{Detail of an enterprise, it can be found when clicking the logo of it. Former / New}
 \label{fig:mobile-screen-5}
 \end{figure}
+It has been made some tiny design changes in the chat view to fit more in the application.
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\linewidth]{img/mobile-screen-4.jpg}
-\caption{Chat screen.}
+\includegraphics[width=0.47\linewidth]{img/mobile-screen-4.jpg}
+\includegraphics[width=0.52\linewidth]{img/mobile/chat.png}
+\caption{Chat screen. Former / New}
 \label{fig:mobile-screen-4}
 \end{figure}
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\linewidth]{img/mobile-screen-3.jpg}
-\caption{Recommendations screen.}
+\includegraphics[width=0.47\linewidth]{img/mobile-screen-8.jpg}
+\includegraphics[width=0.5\linewidth]{img/mobile/search.png}
+\caption{Search products view. Former / New}
 \label{fig:mobile-screen-3}
-\end{figure}
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.5\linewidth]{img/mobile-screen-2.jpg}
-\caption{Login view.}
-\label{fig:mobile-screen-2}
-\end{figure}
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.5\linewidth]{img/mobile-screen-1.jpg}
-\caption{Registration screen.}
-\label{fig:mobile-screen-1}
 \end{figure}
 
 

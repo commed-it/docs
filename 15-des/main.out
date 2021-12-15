@@ -6,47 +6,45 @@
 \BOOKMARK [2][-]{subsection.2.3}{Scrum analytics}{section.2}% 6
 \BOOKMARK [1][-]{section.3}{Requirements}{}% 7
 \BOOKMARK [1][-]{section.4}{Main use cases}{}% 8
-\BOOKMARK [2][-]{subsection.4.1}{Sprint 1}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.2}{Sprint 2}{section.4}% 10
-\BOOKMARK [1][-]{section.5}{General architecture}{}% 11
-\BOOKMARK [2][-]{subsection.5.1}{Chat implementation}{section.5}% 12
-\BOOKMARK [2][-]{subsection.5.2}{Mobile app architecture}{section.5}% 13
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Flutter}{subsection.5.2}% 14
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Redux}{subsection.5.2}% 15
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Service Package}{subsection.5.2}% 16
-\BOOKMARK [3][-]{subsubsection.5.2.4}{Asynchronous Actions}{subsection.5.2}% 17
-\BOOKMARK [3][-]{subsubsection.5.2.5}{WebSocketChannel}{subsection.5.2}% 18
-\BOOKMARK [2][-]{subsection.5.3}{Reason on implementing a Web Client}{section.5}% 19
-\BOOKMARK [2][-]{subsection.5.4}{React}{section.5}% 20
-\BOOKMARK [2][-]{subsection.5.5}{Web Client Architecture}{section.5}% 21
-\BOOKMARK [2][-]{subsection.5.6}{Redux}{section.5}% 22
+\BOOKMARK [1][-]{section.5}{General architecture}{}% 9
+\BOOKMARK [2][-]{subsection.5.1}{Chat implementation}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.2}{Mobile app architecture}{section.5}% 11
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Flutter}{subsection.5.2}% 12
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Redux}{subsection.5.2}% 13
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Service Package}{subsection.5.2}% 14
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Asynchronous Actions}{subsection.5.2}% 15
+\BOOKMARK [3][-]{subsubsection.5.2.5}{WebSocketChannel}{subsection.5.2}% 16
+\BOOKMARK [2][-]{subsection.5.3}{Web Architecture}{section.5}% 17
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Reason on implementing a Web Client}{subsection.5.3}% 18
+\BOOKMARK [3][-]{subsubsection.5.3.2}{React}{subsection.5.3}% 19
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Redux}{subsection.5.3}% 20
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Web Client Architecture}{subsection.5.3}% 21
+\BOOKMARK [3][-]{subsubsection.5.3.5}{Challenges}{subsection.5.3}% 22
 \BOOKMARK [1][-]{section.6}{Database model}{}% 23
 \BOOKMARK [2][-]{subsection.6.1}{Modifications on the models}{section.6}% 24
 \BOOKMARK [1][-]{section.7}{Main Screens}{}% 25
 \BOOKMARK [2][-]{subsection.7.1}{Mobile Application}{section.7}% 26
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Wireframe}{subsection.7.1}% 27
-\BOOKMARK [3][-]{subsubsection.7.1.2}{Application}{subsection.7.1}% 28
-\BOOKMARK [2][-]{subsection.7.2}{Web Client}{section.7}% 29
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Wireframe}{subsection.7.2}% 30
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Application}{subsection.7.2}% 31
-\BOOKMARK [1][-]{section.8}{Dailies}{}% 32
-\BOOKMARK [2][-]{subsection.8.1}{20-11-2021}{section.8}% 33
-\BOOKMARK [2][-]{subsection.8.2}{21-11-2021}{section.8}% 34
-\BOOKMARK [2][-]{subsection.8.3}{22-11-2021}{section.8}% 35
-\BOOKMARK [2][-]{subsection.8.4}{29-11-2021}{section.8}% 36
-\BOOKMARK [2][-]{subsection.8.5}{30-11-2021}{section.8}% 37
-\BOOKMARK [2][-]{subsection.8.6}{1-12-2021}{section.8}% 38
-\BOOKMARK [2][-]{subsection.8.7}{10-12-2021}{section.8}% 39
-\BOOKMARK [2][-]{subsection.8.8}{11-12-2021}{section.8}% 40
-\BOOKMARK [2][-]{subsection.8.9}{12-12-2021}{section.8}% 41
-\BOOKMARK [2][-]{subsection.8.10}{13-12-2021}{section.8}% 42
-\BOOKMARK [2][-]{subsection.8.11}{14-12-2021}{section.8}% 43
-\BOOKMARK [2][-]{subsection.8.12}{15-12-2021}{section.8}% 44
-\BOOKMARK [1][-]{section.9}{Financial Case}{}% 45
-\BOOKMARK [2][-]{subsection.9.1}{Monetization Strategy}{section.9}% 46
-\BOOKMARK [2][-]{subsection.9.2}{Marketing Strategy}{section.9}% 47
-\BOOKMARK [2][-]{subsection.9.3}{Speculation and flow chart}{section.9}% 48
-\BOOKMARK [2][-]{subsection.9.4}{Pessimistic Scenario}{section.9}% 49
-\BOOKMARK [2][-]{subsection.9.5}{Realistic Scenario}{section.9}% 50
-\BOOKMARK [2][-]{subsection.9.6}{Optimistic Scenario}{section.9}% 51
-\BOOKMARK [2][-]{subsection.9.7}{Economic indices comparison between scenarios}{section.9}% 52
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Application}{subsection.7.1}% 27
+\BOOKMARK [2][-]{subsection.7.2}{Web Client}{section.7}% 28
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Application}{subsection.7.2}% 29
+\BOOKMARK [1][-]{section.8}{Dailies}{}% 30
+\BOOKMARK [2][-]{subsection.8.1}{20-11-2021}{section.8}% 31
+\BOOKMARK [2][-]{subsection.8.2}{21-11-2021}{section.8}% 32
+\BOOKMARK [2][-]{subsection.8.3}{22-11-2021}{section.8}% 33
+\BOOKMARK [2][-]{subsection.8.4}{29-11-2021}{section.8}% 34
+\BOOKMARK [2][-]{subsection.8.5}{30-11-2021}{section.8}% 35
+\BOOKMARK [2][-]{subsection.8.6}{1-12-2021}{section.8}% 36
+\BOOKMARK [2][-]{subsection.8.7}{10-12-2021}{section.8}% 37
+\BOOKMARK [2][-]{subsection.8.8}{11-12-2021}{section.8}% 38
+\BOOKMARK [2][-]{subsection.8.9}{12-12-2021}{section.8}% 39
+\BOOKMARK [2][-]{subsection.8.10}{13-12-2021}{section.8}% 40
+\BOOKMARK [2][-]{subsection.8.11}{14-12-2021}{section.8}% 41
+\BOOKMARK [2][-]{subsection.8.12}{15-12-2021}{section.8}% 42
+\BOOKMARK [1][-]{section.9}{Financial Case}{}% 43
+\BOOKMARK [2][-]{subsection.9.1}{Monetization Strategy}{section.9}% 44
+\BOOKMARK [2][-]{subsection.9.2}{Marketing Strategy}{section.9}% 45
+\BOOKMARK [2][-]{subsection.9.3}{Speculation and flow chart}{section.9}% 46
+\BOOKMARK [2][-]{subsection.9.4}{Pessimistic Scenario}{section.9}% 47
+\BOOKMARK [2][-]{subsection.9.5}{Realistic Scenario}{section.9}% 48
+\BOOKMARK [2][-]{subsection.9.6}{Optimistic Scenario}{section.9}% 49
+\BOOKMARK [2][-]{subsection.9.7}{Economic indices comparison between scenarios}{section.9}% 50
