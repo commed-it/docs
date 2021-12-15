@@ -55,7 +55,7 @@ According to the kanban, it has been created a milestone named \textit{Sprint  3
 % TODO change figure
 \begin{figure}[H]
 	\includegraphics[width=15cm]{img/kanban.png}
-	\caption{Screenshot of the first days of the project kanban.}
+	\caption{Screenshot of the last days of the project kanban.}
 \end{figure}
 \subsubsection{Issues}
 \textbf{Backend}
@@ -198,13 +198,14 @@ In this section the list of requirements that the application has to offer to th
 
 \section{Main use cases}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth]{use_case_diagram/usecase_diagram.png} %TODO Update with new Use Cases file at ./use_case_diagram
 \caption{Use case diagram of the application.}
 \end{figure}
 
-\subsection{Sprint 1}
+The use cases will be described as:
+
 \begin{itemize}
 
 \item
@@ -326,10 +327,32 @@ In this section the list of requirements that the application has to offer to th
     commercial transaction with all the evidences and the billing of
     the contract.
   \end{itemize}
+\item
+\textbf{List my chats}
+
+\begin{itemize}
+	
+	\item
+	\textbf{Actors:} User
+	\item
+	\textbf{Purpose:} Provides the user a list of the current opened chats with other users.
+	\item
+	\textbf{Description:} The system will query the current chats for a user, either if they are the product owner or the client.
 \end{itemize}
 
-\subsection{Sprint 2}
-%TODO: Add new Sprint 2 Use Cases Here
+\item
+\textbf{List my formal offers}
+
+\begin{itemize}
+	
+	\item
+	\textbf{Actors:} User
+	\item
+	\textbf{Purpose:} Provides the user a list of the current formal offers with other users.
+	\item
+	\textbf{Description:} The system will query the current formal offers for a user, either if they are the product owner or the client.
+\end{itemize}
+\end{itemize}
 
 \hypertarget{general-architecture}{%
 \section{General architecture}\label{general-architecture}}
@@ -362,79 +385,15 @@ Finally, it has been added a Message model, that holds the information on the me
 \section{Main Screens} \label{sec:views}
 %TODO delete it, maybe?
 In the first stage of the designing of the mobile application, it was held a state diagram to start representing the management and the navigation of the user. This diagram can be shown in \ref{fig:stateapp}.
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=14cm]{stateapp.png}
 	\label{fig:stateapp}
 	\caption{State diagram of the application.}
 \end{figure}
 \subsection{Mobile Application}
-%TODO: Mobile Application screens.
-\subsubsection{Wireframe}
-It can be seen in the next images the main screens of the wireframe. At first, it can be seen a list of product
-as the main page of the application, in the image \ref{fig:wire-1}. The next image \ref{fig:wire-2} contains the login screen, which can be accessed by clicking on the user icon the image before. The register \ref{fig:wire-3} is accessed by clicking at the sign-up option.\\
-\\
-The image \ref{fig:wire-4} contains the list of chats that you currently have for every product or service, and the \ref{fig:wire-5} has the detail of a particular chat, that can be seen when clicking in a item from the list of chats. The next image contains the list of formal offers \ref{fig:wire-6}. Both lists can be accessed when clicking on the icon in the bottom menu if the application.\\
-\\
-The last two images contains the detail of an enterprise \ref{fig:wire-7} and a submenu for things related to the user \ref{fig:wire-8}. The first image can be accessed when clicking the logo of an enterprise, and the last one can be seen when clicking on the user logo. 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\linewidth]{img/home-page.jpeg}
-	\caption{Home mobile screen, it lists the products}
-	\label{fig:wire-1}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\linewidth]{img/login-page.jpeg}
-	\caption{Login view}
-\label{fig:wire-2}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\linewidth]{img/register-page.jpeg}
-	\caption{Register view}
-	\label{fig:wire-3}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\linewidth]{img/chat-list.jpeg}
-	\caption{List of the current chats.}
-	\label{fig:wire-4}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\linewidth]{img/chat-conversation.jpeg}
-	\caption{A chat conversation.}
-	\label{fig:wire-5}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\linewidth]{img/formal-offers.jpeg}
-	\caption{List of formal offers.}
-	\label{fig:wire-6}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\linewidth]{img/enterprise-profile.png}
-	\caption{An enterprise profile.}
-	\label{fig:wire-7}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\linewidth]{img/menu-profile.jpeg}
-	\caption{Menu Profile.}
-	\label{fig:wire-8}
-\end{figure}
-
-
 \subsubsection{Application}
+% TODO change this.
 In this section, you will encounter all the screens that the application has currently. The first three images correspond to the home, which lists some products, the list of chats, and the list of formal offers. This can be accessed when clicking at the bottom view. It can not be slides, as it was found confusing when using the images' carousel.\\
 \\
 The next page \ref{fig:mobile-screen-5} is the profile of an enterprise, which is triggered when clicking a logo of the enterprise, in the pages before. In the figure \ref{fig:mobile-screen-4}, the chat between two users can be seen. It also can be seen a formal offer version, and although a formal offer version can only be send by the owner of the product, it was though that showcasing both items in the mock would be better. The next image \ref{fig:mobile-screen-3} is the searcher of the app, that can be triggered when clicking the magnifying  glass icon. It has the history of the items searched, which can be deleted when clicking the trash button, or replicated when clicking the text.\\
@@ -491,163 +450,15 @@ Finally, in the images \ref{fig:mobile-screen-2}, \ref{fig:mobile-screen-1}, it 
 
 
 \subsection{Web Client}
-
-\subsubsection{Wireframe}
-In this section, it is going to be shown the paper wireframe that was drawn. This contains the first ideas that had been thought for the dessign of the web application.
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_1.jpeg}
-  \caption{FormalOffer Detail Sign screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_2.jpeg}
-  \caption{Product Detail screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_3.jpeg}
-  \caption{Products/Formal Offers Profile screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_4.jpeg}
-  \caption{Chat screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_5.jpeg}
-  \caption{Search screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_6.jpeg}
-  \caption{Profile screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_7.jpeg}
-  \caption{Register screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_8.jpeg}
-  \caption{Log In screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_9.jpeg}
-  \caption{Home Loged In screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_10.jpeg}
-  \caption{Formal Offer Send screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webwire_11.jpeg}
-  \caption{Home screen.}
-  \label{fig:webwire-screen-1}
-\end{figure}
-
 \subsubsection{Application}
-In this section we are going to show all the Screens that are actually in our application.
+In this section it will be shown the changes that have graphically occurred in the views.
+% left one as an example, as it wasn't needed that many items.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.5\linewidth]{img/webclient_2.png}
   \caption{Home screen.}
   \label{fig:webclient-screen-1}
 \end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_3.png}
-  \caption{Log In screen.}
-  \label{fig:webclient-screen-2}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_4.png}
-  \caption{Registration screen.}
-  \label{fig:webclient-screen-3}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_5.png}
-  \caption{Product Details screen.}
-  \label{fig:webclient-screen-4}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_6.png}
-  \caption{Profile screen.}
-  \label{fig:webclient-screen-5}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_7.png}
-  \caption{Profile Products screen.}
-  \label{fig:webclient-screen-6}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_8.png}
-  \caption{Profile Products Loged In screen.}
-  \label{fig:webclient-screen-7}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_9.png}
-  \caption{Chat screen.}
-  \label{fig:webclient-screen-8}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_10.png}
-  \caption{Create Product screen.}
-  \label{fig:webclient-screen-9}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_11.png}
-  \caption{404 screen.}
-  \label{fig:webclient-screen-10}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_13.png}
-  \caption{Edit screen.}
-  \label{fig:webclient-screen-11}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_14.png}
-  \caption{Profile Loged In screen.}
-  \label{fig:webclient-screen-12}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient_15.png}
-  \caption{Delete Product screen.}
-  \label{fig:webclient-screen-13}
-\end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/webclient-16.jpg}
-  \caption{Search screen.}
-  \label{fig:webclient-screen-14}
-\end{figure}
-
 
 \section{Dailies}
 
