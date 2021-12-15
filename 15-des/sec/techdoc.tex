@@ -21,10 +21,9 @@
 The first thing that was done regarding the planification of the project
 was to define the behavior of the application in a list of user stories.
 The next list exposes all of the actions that the user can do with it as
-well as different ways of interacting with it.
-\\
-\\
-For this sprint, not only it has been changed the name of the user stories to be more precised but also it has been added new ones, related to the formal offer and financial operations. Although the last ones are not implemented, they do exist in set of user stories.
+well as different ways of interacting with it. It has to be noted that for this Sprint 
+there has been no changes on the user stories.
+
 \begin{itemize}
 	\item \textbf{AUTH1}: As a guest, I want to register in the application 
 	\item \textbf{AUTH2}: As a user, I want to log in to the application. 
@@ -47,17 +46,13 @@ For this sprint, not only it has been changed the name of the user stories to be
 Afterwards, a meeting was held in order to fulfill the product backlog
 with all the tasks that had to be done. These tasks were related to User
 Stories, but they were divided so that the product backlog had a small
-granularity in the given tasks.
+granularity in the given tasks. Some tasks were leftovers from the second sprint, as 
+it was intended to have the integration with the API done by the end of it, but 
+the team didn't have enough time to implement them.
 \\
 \\
-According to the kanban, it has been created a milestone named \textit{Sprint 2}, which groups all the issues from this sprint. Also, as in this sprint will be two new main projects added to the former sprint, which will be the web client and the mobile client application, it has been assigned new labels to sort the different types of issues in every repository:
-\begin{itemize}
-	\item \textbf{wireframe}. The issue is related to the design of the application.
-	\item \textbf{web}. The issue is related to the web client.
-	\item \textbf{web-dev}. The issue is related to the development of the web.
-	\item \textbf{mobile}. The issue is related to the mobile application.
-	\item \textbf{mobile-dev}. The issue is related to the development of the mobile application.
-\end{itemize}
+According to the kanban, it has been created a milestone named \textit{Sprint  3}, which groups all the issues from this Sprint. It has also been migrated the leftovers from the \textit{Sprint 2} to the new milestone.
+% TODO change figure
 \begin{figure}[H]
 	\includegraphics[width=15cm]{img/kanban.png}
 	\caption{Screenshot of the first days of the project kanban.}
@@ -65,120 +60,56 @@ According to the kanban, it has been created a milestone named \textit{Sprint 2}
 \subsubsection{Issues}
 \textbf{Backend}
 \begin{verbatim}
-- List Formal Offers for User
-    - size: 3
-- List User Products
-    - size: 3
-- Secure endpoints with authentication
-    - size: 5
+- Upgrade Docker
+	- size: 1
+- Chat Feature Implementation
+	- size : 13
+- Fix Product Images CRUD
+	- size: 13
+- FormalOffer in Admin
+	- size: 1
+- Enterprise Profile Image and Banner
+	- size: 1
+- Fix List Formal Offers
+	- size: 2
+- Fix List chat encounters
+	- size: 2
+- Add Endpoint for starting chat
+	- size: 3
+- Add better mocks
+	- size: 3
 \end{verbatim}
 \textbf{Web client}
 \begin{verbatim}
-- Wireframe - Publication Detail
-    - size: 3
-- Wireframe - Profile Detail
-    - size: 3
-- Wireframe - Enterprise Detail
-    - size: 3
-- Wireframe - ListChat
+- Sending FormalOffer frm Chat
     - size: 5
-- Wireframe - ConversationScreen
-    - size: 5
-- Wireframe - ListProducts
-    - size: 3
-- Wireframe - Not Registered Main Screen
-    - size: 3
-- Wireframe - MainScreen Registered
-    - size: 3
-- Wireframe - ListFormalOffer
-    - size: 3
-- Wireframe - Inital Login State
-    - size: 3
-- Wireframe - Bad Login State
-    - size: 3
-- Wireframe - RegisterScreen
-    - size: 3
-- Wireframe - ListFormalOffer
-    - size: 3
-- Implementation of Register
-    - size: 3
-- Implementation of Login
-    - size: 3
-- Implementation of Product Detail
-    - size: 5
-- Implementation of 404 NotFoundScreen
-    - size: 1
-- Implementation of the NavBar
-    - size: 3
-- Implementation of Home
-    - size: 5
-- Implementation of Enterprise Detail
-    - size: 5
-- Implementation of Search Products
-    - size: 8
-- Implementation of Enterprise Edit
-    - size: 5
-- Implementation of Edit Product
-    - size: 8
-- Implementation of Create Product
-    - size: 3
-- Implementation of Chat
-    - size: 8
-- Implmentation of Formal Offer List
-    - size: 3
 - Implementation of Formal Offer Form
     - size: 5
+- Implementation of Chat
+    - size: 8
+- WebClient NavBar fixes
+    - size: 3
+- WebClient Labels
+    - size: 2
+- Recommendations algorithm Location
+    - size: 2
 \end{verbatim}
 \textbf{Mobile application}
 \begin{verbatim}
-- Wireframe Planification - State Diagram
-    - size: 5
-- Wireframe - RegisterScreen
-    - size: 2
-- Wireframe - Bad Login State
-    - size: 1
-- Wireframe - Initial Login State
-    - size: 2
-- Wireframe - Not Registered Main Screen
-    - size: 3
-- Wireframe - MainScreen Registered
-    - size: 5
-- Wireframe - PublicationDetail
-    - size: 5
-- Implementation of Localization Language
-    - size: 2
-- Implementation and design of Redux architecture
-    - size: 13
-- Implementation of Copy static method to create a new State in Redux
-    - size: 1
-- Implementation of RegisterScreen
-    - size: 3
-- Implementation of LoginScreen
-    - size: 5
-- Implementation of GenericSummaryWidget
-    - size: 2
-- Implementation of CarrousleSliderWidget
-    - size:  3
-- Implementation of Product/Service Publication Screen
-    - size: 5
-- Implementation of ListChatScreen
-    - size: 5
-- Implementation of FormalOfferDetailScreen
-    - size: 3
-- Implementation of ListFormalOfferScreen
-    - size: 5
-- Implementation of ConversationScreen
+- Implementation of Authentication with the API
     - size: 8
-- Implementation of Profile Enterprise Detail Screen
-    - size: 3
-- Design and Title of the Application - Manifest
-    - size: 1
-- Implementation of SearcherView
+- Implementation of FormalOffer API backend Integration with flutter
     - size: 5
-- Implmentation of Authentication Logic
+- Implementation of Chat API Integration
+    - size: 13
+- Implementation of Search feature with the API in mobile
+    - size: 8
+- Implementation of Product/Service/Publication integration
+    - size: 5
+- Implement application labels
+    - size: 1
+- Application NavBar fixes
     - size: 3
-- Implementation of MainScreen without registration user
-    	- size: 5
 \end{verbatim}
 
 \subsection{Scrum analytics}
@@ -188,31 +119,31 @@ As Github does not support milestones for a group of repositories but for single
 \textbf{backend}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=15cm]{img/sprint2-backend.png}
-	\caption{Backend Sprint 2 milestone}
+	\includegraphics[width=15cm]{img/sprint3-backend.png}
+	\caption{Backend Sprint 3 milestone}
 \end{figure}
-As it can be seen, the backend has only little modifications, that is why the percentage can be smaller even though it has been done all the tasks for this sprint. The task that is still missing is the authorization management of the endpoints called, which will be held on the next sprint.
+As it can be seen, the backend has only a few issues but some big ones. The implementation of Chat was one of the biggest use cases that was implemented, and integrating it with the web client and the mobile application was not an easy task. Also, it was thought at first that solving a bug regarding the product images would be an easy task, but it took as much as the chat implementation itself, as a lot of tasks regarding the analysis was needed before being able to implement a correct way.
 \\
 \\
 \textbf{web-client}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=15cm]{img/sprint2-web.png}
-	\caption{Web client Sprint 2 milestone}
+	\includegraphics[width=15cm]{img/sprint3-web.png}
+	\caption{Web client Sprint 3 milestone}
 \end{figure}
-In regards of the web client, mostly of the tasks are done. The tasks that are not done are depending on issues detected in backend, such as image management and chat. This issues will be postponed to the third sprint, where will be created new issues related to the back.
+Regarding the web client, all of the tasks assigned for this Sprint are done.  The main topic in the web client was polishing things and making the chat work, as well as the formal offers.
 \\\\
 \textbf{mobile-app}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=15cm]{img/sprint2-mobile.png}
-	\caption{Web client Sprint 2 milestone}
+	\includegraphics[width=15cm]{img/sprint3-mobile.png}
+	\caption{Web client Sprint 3 milestone}
 \end{figure}
-According to the mobile application, the things that are still in progress or in to do stage are about the integration of the API backend, which were formerly associated with this sprint. However, while iterating for this sprint, we did realize about that and it was considered that the issues of design and architecture were more important to be finished on this sprint.
+In this sprint, the API integration was  done in he mobile application. It was also polished some things for the user experience.
 %Sprint stuff. Commits estatistics, completition of the tasks, number of tasks done, amount of size completed, sprint progression grapic, Backlog...
 
 \section{Requirements}
-In this section the list of requirements that the application has to offer to the user are on the list below. As matter of fact, the requirements have been more detailed in this sprint, the changes and new requirements are written in \textit{italics}.
+In this section the list of requirements that the application has to offer to the user are on the list below. As matter of fact, the requirements were left as they were in the previous Sprint, as no new ones or refinements were found. 
 \\\\
 \textbf{Functional Requirements:}
 \begin{itemize}
@@ -221,12 +152,12 @@ In this section the list of requirements that the application has to offer to th
 	The application has to let all kinds of users search for products or
 	services.
 	\item
-	The application has to let users register into the application \textit{and it will create automatically an enterprise profile}.
+	The application has to let users register into the application and it will create automatically an enterprise profile.
 	\item
 	The application has to let users log in to the application if they
 	have an active account on the system.
 	\item
-	The application has to let logged users publish products or services \textit{in the web application}.
+	The application has to let logged users publish products or services in the web application.
 	\item
 	The application has to let logged users interested in either a product
 	or a service to start a chat with the owner of it.
@@ -237,15 +168,15 @@ In this section the list of requirements that the application has to offer to th
 	The application has to let logged users send a commercial transaction
 	contract when an agreement has been reached .
 	\item 
-	\textit{The application has to let logged users download a commercial transaction
-	contract sent by the owner of a product that they are interested.}
+	The application has to let logged users download a commercial transaction
+	contract sent by the owner of a product that they are interested.
 	\item
 	The application has to let logged users sign a commercial transaction
 	contract sent by the owner of a product that they are interested.
 	\item
 	The application has to generate the evidences for both sides of the
 	commercial agreement.
-	\item \textit{The application has to let logged users to view a list of the formal offers they are in.}
+	\item The application has to let logged users to view a list of the formal offers they are in.
 \end{itemize}
 \textbf{Non-Functional Requirements:}
 \begin{itemize}
@@ -409,12 +340,14 @@ In this section the list of requirements that the application has to offer to th
 \caption{General architecture of the application.}
 \end{figure}
 
+\subfile{backend.tex}
+
 \subfile{mobile.tex} % TODO Add in these files
 \subfile{frontend.tex} % TODO Add in these files - Done to review
 
 \section{Database model}
 The database model can be seen at figure \ref{fig:model-uml}.
-
+% TODO Sergi Change database to add messages and other kinds of stuff
 \begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth]{img/database-model-new.png}
@@ -423,8 +356,11 @@ The database model can be seen at figure \ref{fig:model-uml}.
 \end{figure}
 
 \subsection{Modifications on the models}
-During the implementation of the clients, it was found the lack of the title of the product. As it was discovered in early ages of the sprint, it has been created an issue for it. Also, it was found the lack of an image that would represent the logo of the enterprise and an another one which would correspond to the banner.
+The logo and the banner for an \texttt{Enterprise} had been finally added to the enterprise model, as well as  location of it. It has also been changed the \texttt{FormalOffer} model, changing the name of \texttt{signedPDF} to \texttt{PDF}, and allowing nulls on it, as some formal offers won't have any documents. It was added a field for storing the state of the formal offer, and although now it has only two states possible, some detected use cases have more than the naive thought that a document can either be signed on unsigned. It has been made it an immutable model, that is, it can only create instances and it cannot modify any of them, as it was thought that adding in the version of the document with another state was better than updating the database. This lets the chat mesmerize the state of a formal offer, so it doesn't modify it overtime if they patch the formal offer.\\
+\\
+Finally, it has been added a Message model, that holds the information on the messages, and having fields regarding the author, the time of creation, the author and the message itself. This last field stores a JSON with the values that were sent on it, as it will only be needed in a JSON format and won't be queried against its parameters. Moreover, it simplifies the querying of a normalized database, as it holds different types of messages, which for now it's only \texttt{FormalOffer}s and text messages.
 \section{Main Screens} \label{sec:views}
+%TODO delete it, maybe?
 In the first stage of the designing of the mobile application, it was held a state diagram to start representing the management and the navigation of the user. This diagram can be shown in \ref{fig:stateapp}.
 \begin{figure}
 	\centering
@@ -715,72 +651,87 @@ In this section we are going to show all the Screens that are actually in our ap
 
 \section{Dailies}
 
-\subsection{01-11-2021}
+\subsection{20-11-2021}
 \begin{itemize}
-\item Creation of the state diagram of the Mobile Application.
-\item Accorded that Jass was going to be the responsible of doing the Wireframe of the application.
-\item Accorded that Quim and Emina are working on the React Web Client
-\item Accorded that Sergi and Oriol are working with the Flutter Mobile App
+	\item Creation of the items that shall be done by the end of the sprint
+	\item Emina will work on polishing the app.
+	\item Yassine will work on an accesibility and usability of the app.
+	\item Quim will work on the product images CRUD, as it has a bug that needs to be fixed.
+	\item Oriol will work on polishing the app, and connecting some endpoints in the app.
+	\item Sergi will work in the implementation of the Chat in the backend.
 \end{itemize}
 
-\subsection{02-11-2021}
+\subsection{21-11-2021}
 \begin{itemize}
-\item Talked a little bit about the style of the application
-\item Emina and Quim started With Wireframe
-\item Mobile Aplication Team started also with the design and the Wireframe of the application.
-\end{itemize}
-
-\subsection{03-11-2021}
-\begin{itemize}
-\item Decided the palette of colors we are using oin our app and mobile app
-\item Decided the logos that we are using in our web client and App
-\item Put In commont design decissions from both subteams.
-\item Talked about the work to be done in the rest of the week
-\end{itemize}
-
-
-\subsection{08-11-2021}
-\begin{itemize}
-\item Update of the status of the project after the week of work
-\item Quim and emina showed wireframe of the app and irst steps of the Web app.
-\item Jass showed to us some screens of the wireframe, and opened some design discussion.
-\item Oriol and sergi showed botom navigation menu, list of products and started.
-\end{itemize}
-
-
-\subsection{09-11-2021}
-\begin{itemize}
-\item Jass keep the work with wireframe and started to learn some flutter.
-\item Oriol and keep with the work and start login and register.
-\item Quim and emina start with the arquitecture of the web.
-\end{itemize}
-
-
-\subsection{10-11-2021}
-\begin{itemize}
-\item Oriol and sergi keep working with register and login
-\item Jass working with wireframe and flutter
-\item Quim and Emina srat doing Home screen and comunicate with backend
-\item Set the amout of work to do for nexct week
+	\item Everybody still worked on the same issues as the last time
 \end{itemize}
 
 \subsection{22-11-2021}
 \begin{itemize}
-\item Update of the current state od the project
-\item Oriol and Sergi showed some Mobile App Screens
-\item Quim and emina Showed some screens of the client + Session managment and login/register communicating with with backend
+\item Everybody worked on the same issues, and Oriol started focusing on integrating the application with the backend.
 \end{itemize}
 
-\subsection{23-11-2021}
+\subsection{29-11-2021}
 \begin{itemize}
-\item Sergi and Oriol Working with More mocked screens of the mobile App
-\item Quim and Emina also working in some more Screens of the web application
+	\item Everybody worked on the same issues, but Emina finished her work.
 \end{itemize}
 
-\subsection{24-11-2021}
+\subsection{30-11-2021}
 \begin{itemize}
-  \item Quim and Emina put on the table dessign questions that had been debated by all
-  \item Sergi and Ori Showed to all the group the progression of the app screens and also leaded on some design discussion.
+	\item Emina and Sergi paired to solve some bugs on the chat application, as it didn't work
+	on docker but it worked on local.
+	\item All the other people were progressing on the same issues.
 \end{itemize}
 
+\subsection{1-12-2021}
+\begin{itemize}
+	\item Everybody worked on the same issues.
+\end{itemize}
+
+
+\subsection{10-12-2021}
+\begin{itemize}
+	\item The issues regarding the chat were discovered, so Sergi started working alone in fixing those issues.
+	\item Emina started working on populating the database with more accurated users, to make the demonstrations better and the debugging of the application easier.
+\end{itemize}
+
+\subsection{11-12-2021}
+\begin{itemize}
+	\item Sergi finished the chat, and began implementing custom endpoints for listing all the chats and formal offers needed by the web application and the mobile application.
+	\item Emina finished the database and started connecting the chat with the application.
+	\item Quim aided Emina in the integration with the chat while he was stuck debugging the product images.
+	\item Oriol integrated most of the app.
+\end{itemize}
+
+\subsection{12-12-2021}
+\begin{itemize}
+	\item Sergi changed some features for the chat, as they were requested to make the implementation easier for both clients.
+	\item Emina debbuged the chat.
+	\item Quim aided Emina in the integration with the chat, and made the product images CRUD work.
+	\item Oriol integrated most of the app.
+\end{itemize}
+
+\subsection{13-12-2021}
+\begin{itemize}
+	\item Sergi aided Emina, Quim and Oriol, and also did the merges on two branches.
+	\item Emina debbuged the chat and polished things
+	\item Quim developed the images publishing on the frontend.
+	\item Oriol integrated most of the app.
+\end{itemize}
+
+\subsection{14-12-2021}
+\begin{itemize}
+	\item Sergi aided some help and worked on the documentation.
+	\item Emina finished the chat.
+	\item Quim aided Emina.
+	\item Oriol integrated the app completely.
+\end{itemize}
+
+
+\subsection{15-12-2021}
+\begin{itemize}
+	\item Sergi Quim and Oriol worked on the documentation
+	\item Emina worked on the slides.
+	\item Sergi hepled Nico put the financial case on the documentation.
+\end{itemize}
 \end{document}

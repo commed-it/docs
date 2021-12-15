@@ -1,14 +1,28 @@
 #+TITLE: Plantuml
-#+begin_src plantuml :file img/seq.png :dir .
-!theme cerulean-outline
+#+begin_src plantuml :file sec/img/api-calls.png :dir .
+!theme plain
+activate Client
+activate Server
 Client -> Server: "/chat/encounter/{id}/messages"
 Server --> Client : [msg1, msg2, msg3...]
 Client -> Server:  "/ws/chat/{id}/"
-Server -> Client: "yep"
+Server --> Client: "socket.accept()"
+loop while the websocket is active
+    alt Client starts communication
+        Client --> Server: a message
+        Client --> Client: show message
+    else Server starts communication
+        Server --> Client: a message
+        Server --> Server: validate message
+        Server --> Server: save message
+        Server --> Server: send message to group chat
+    end
+end
+deactivate Client
 #+end_src
 
 #+RESULTS:
-[[file:img/seq.png]]
+[[file:sec/img/api-calls.png]]
 
 
 #+begin_src json
@@ -18,5 +32,11 @@ Server -> Client: "yep"
   "message": "text",
   "formalOffer": formalOfferId,
 }
+
+#+end_src
+
+
+* New Database model
+#+begin_src plantuml :file img/db.png :dir .
 
 #+end_src
