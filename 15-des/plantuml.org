@@ -38,5 +38,89 @@ deactivate Client
 
 * New Database model
 #+begin_src plantuml :file img/db.png :dir .
+!theme plain
+
+namespace product {
+class Product <<persistent>> {
+    + id : Int
+    ..
+    + owner : User
+    + description : Text
+    + latitude : Double
+    + longitude : Double
+}
+
+class ProductImage <<persistent>> {
+    + name : Chars
+    + imageFile : ImageFile
+}
+
+class Tag <<persistent>> {
+    + name : Chars
+}
+
+class Category <<persistent>> {
+    + name : Chars
+}
+
+Product *-- ProductImage
+Tag <-- Product
+Category *-- Tag
+
+}
+
+namespace enterprise {
+
+    class Enterprise <<persistent>> {
+        + owner : User.id
+        ..
+        + NIF : Chars
+        + name : Chars
+        + contactInfo : Chars
+        + description : RichText
+        ..
+        + logo: ImageFile
+        + banner: ImageFile
+        + location: Chars
+    }
+}
+
+
+class User <<persistent>> {
+    + id: Int
+    ..
+    + email : Chars
+    + username : Chars
+    + password : Chars
+}
+
+namespace offer {
+
+class Encounter {
+
+}
+
+class FormalOffer <<persistent>> {
+    + encounterId : Int
+    + version : Int
+    ..
+    + contract : RichText
+    ..
+    + pdf : File
+    + state: StateFormalOffer
+}
+}
+
+
+
+User "1" -- "0..*" product.Product : owns >
+User "1" -- "1" enterprise.Enterprise : owns >
+User "1" -- "*" offer.Encounter : isInterestedInProduct >
+product.Product "1" -- "0..*" offer.Encounter : startedChat >
+offer.FormalOffer "0..*" -- "1" offer.Encounter : startedFormalOffer <
+
 
 #+end_src
+
+#+RESULTS:
+[[file:img/db.png]]
