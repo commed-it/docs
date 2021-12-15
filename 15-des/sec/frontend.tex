@@ -57,8 +57,22 @@ beeing able to Register, SignUp and interacting with all the different
 features that our application provides.
 \\\\
 Also, the chat has been implemented using websockets. For doing so, we used a React library called 
-react-use-websocket that has been used as a wrapper of the complexity of connecting with the 
-client websocket to the server.
+react-use-websocket that has been used as a wrapper of the complexity of connecting with the client websocket to the server.
+\subsubsection{Web Client Project structure}
+\begin{figure}[H]
+	\centering
+	\includegraphics{img/web-client-project.png}
+	\caption{Project Structure}
+	\label{fig:redux}
+\end{figure}
+The project has been divided in different folders and components based on the different features that the application have. Each component will have its own independent js and css file. The application has been designed following a hierarchical model for the different components that can be seen in the next diagram:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/React-tree.png}
+	\caption{Project Structure}
+	\label{fig:redux}
+\end{figure}
+Each one of the components will maintain his own state. This will make the thins a lot more tidy and in order. Also, some child components inherit some of the state of their parents. This is because a change done in a child component maybe have to be reflectet on the parent component. 
 \subsubsection{Challenges}
 The management of files and images in the front and in the communicatios with the backed has 
 been a really challenging topic. For doing this, different approaches had been tryed and finally
