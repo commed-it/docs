@@ -37,7 +37,7 @@ deactivate Client
 
 
 * New Database model
-#+begin_src plantuml :file img/db.png :dir .
+#+begin_src plantuml :file sec/img/database-model-new.png :dir .
 !theme plain
 
 namespace product {
@@ -97,7 +97,7 @@ class User <<persistent>> {
 namespace offer {
 
 class Encounter {
-
+    pk: UUID
 }
 
 class FormalOffer <<persistent>> {
@@ -111,6 +111,17 @@ class FormalOffer <<persistent>> {
 }
 }
 
+class chat.Message {
+    + author : User
+    + channel_context : UUID
+    + msg : Text
+    + timestamp : Date
+}
+
+chat.Message "*" -- "1" offer.Encounter : message from >
+chat.Message "*" -- "1" User: author of the message <
+
+
 
 
 User "1" -- "0..*" product.Product : owns >
@@ -123,4 +134,41 @@ offer.FormalOffer "0..*" -- "1" offer.Encounter : startedFormalOffer <
 #+end_src
 
 #+RESULTS:
-[[file:img/db.png]]
+[[file:sec/img/database-model-new.png]]
+#+begin_src plantuml :file sec/use_case_diagram/usecase_diagram.png :dir .
+!theme plain
+
+package Commed {
+    usecase "Register into application" as uc1
+    usecase "Log In into Application" as uc2
+    usecase "Search for Products/services" as uc3
+    usecase "Publish Products/Services" as uc4
+    usecase "Start chat for a product" as uc5
+    usecase "Send comercial transation contract" as uc6
+    usecase "Evidences Generation" as uc7
+    usecase "Digitaly Sign contract" as uc8
+    usecase "List my chats" as uc9
+    usecase "List my formal offers" as uc10
+}
+
+
+actor User as u
+actor EUDSS as eudss
+
+u --> uc1
+uc2 <|-- uc1
+u --> uc3
+uc4 <|-- uc2
+uc5 <|-- uc2
+uc6 <|-- uc5
+uc8 <|-- uc5
+uc7 <|-- uc8
+uc9 <|-- uc2
+uc10 <|-- uc2
+eudss --> uc8
+
+
+#+end_src
+
+#+RESULTS:
+[[file:sec/use_case_diagram/usecase_diagram.png]]
