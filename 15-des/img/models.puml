@@ -1,0 +1,11 @@
+@startuml models
+class Category {
+    + name: Chars
+}
+class Tag {
+    + name : Chars
+}
+class Product {
+    + void send(SMSDatagram)
+}
+@enduml
