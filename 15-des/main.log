@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.11.17)  15 DEC 2021 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.11.17)  15 DEC 2021 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,38 +878,7 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [a4papaer].
 
-(./main.aux
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:webwire-screen-1' multiply defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -988,7 +957,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count359
-<sec/UDL.png, id=216, 253.94875pt x 199.74625pt>
+<sec/UDL.png, id=208, 253.94875pt x 199.74625pt>
 File: sec/UDL.png Graphic file (type png)
 <use sec/UDL.png>
 Package pdftex.def Info: sec/UDL.png  used on input line 89.
@@ -1032,26 +1001,26 @@ cpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...rline {8.2}21-11-2021}{44}{subsection.8.2}
+l.35 ...rline {8.4}29-11-2021}{25}{subsection.8.4}
                                                   % [1])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (./main.lof [2]
-[3])
+ (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- (./main.lot)
+
+(./main.lot [2])
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [4] (./sec/techdoc.tex [5]
-<sec//img/kanban.png, id=428, 1335.99126pt x 700.6175pt>
+ [3] (./sec/techdoc.tex [4]
+<sec//img/kanban.png, id=342, 1828.8325pt x 913.4125pt>
 File: sec//img/kanban.png Graphic file (type png)
 <use sec//img/kanban.png>
 Package pdftex.def Info: sec//img/kanban.png  used on input line 57.
-(pdftex.def)             Requested size: 426.79134pt x 223.81732pt.
+(pdftex.def)             Requested size: 426.79134pt x 213.16064pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--59
 
@@ -1061,8 +1030,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[6 <./sec//img/kanban.png>] [7]
-<sec//img/sprint3-backend.png, id=442, 1321.93875pt x 93.34875pt>
+[5 <./sec//img/kanban.png>] [6]
+<sec//img/sprint3-backend.png, id=356, 1321.93875pt x 93.34875pt>
 File: sec//img/sprint3-backend.png Graphic file (type png)
 <use sec//img/sprint3-backend.png>
 Package pdftex.def Info: sec//img/sprint3-backend.png  used on input line 122.
@@ -1072,7 +1041,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--124
 
  []
 
-<sec//img/sprint3-web.png, id=443, 1312.905pt x 97.36375pt>
+<sec//img/sprint3-web.png, id=357, 1312.905pt x 97.36375pt>
 File: sec//img/sprint3-web.png Graphic file (type png)
 <use sec//img/sprint3-web.png>
 Package pdftex.def Info: sec//img/sprint3-web.png  used on input line 131.
@@ -1082,7 +1051,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--133
 
  []
 
-<sec//img/sprint3-mobile.png, id=444, 1302.8675pt x 93.34875pt>
+<sec//img/sprint3-mobile.png, id=358, 1302.8675pt x 93.34875pt>
 File: sec//img/sprint3-mobile.png Graphic file (type png)
 <use sec//img/sprint3-mobile.png>
 Package pdftex.def Info: sec//img/sprint3-mobile.png  used on input line 139.
@@ -1092,34 +1061,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--141
 
  []
 
-[8 <./sec//img/sprint3-backend.png> <./sec//img/sprint3-web.png>]
+[7 <./sec//img/sprint3-backend.png> <./sec//img/sprint3-web.png> <./sec//img/sp
+rint3-mobile.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 146--149
 
  []
 
-[9 <./sec//img/sprint3-mobile.png>]
-<sec//use_case_diagram/usecase_diagram.png, id=456, 678.535pt x 682.55pt>
+[8]
+<sec//use_case_diagram/usecase_diagram.png, id=370, 992.70876pt x 674.52pt>
 File: sec//use_case_diagram/usecase_diagram.png Graphic file (type png)
 <use sec//use_case_diagram/usecase_diagram.png>
 Package pdftex.def Info: sec//use_case_diagram/usecase_diagram.png  used on inp
 ut line 203.
-(pdftex.def)             Requested size: 427.43153pt x 429.95671pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10] [11 <./sec//use_case_diagram/usecase_diagram.png (PNG copy)>]
-<sec//architecture_diagram/Architecture.drawio.png, id=465, 452.69125pt x 655.4
+(pdftex.def)             Requested size: 427.43153pt x 290.42905pt.
+ [9 <./sec//use_case_diagram/usecase_diagram.png (PNG copy)>] [10]
+<sec//architecture_diagram/Architecture.drawio.png, id=379, 452.69125pt x 655.4
 4875pt>
 File: sec//architecture_diagram/Architecture.drawio.png Graphic file (type png)
 
 <use sec//architecture_diagram/Architecture.drawio.png>
 Package pdftex.def Info: sec//architecture_diagram/Architecture.drawio.png  use
-d on input line 339.
+d on input line 362.
 (pdftex.def)             Requested size: 256.46152pt x 371.32936pt.
- [12]
+ [11]
 (./sec/backend.tex
-<sec//img/api-calls.png, id=472, 495.8525pt x 518.93875pt>
+<sec//img/api-calls.png, id=386, 495.8525pt x 518.93875pt>
 File: sec//img/api-calls.png Graphic file (type png)
 <use sec//img/api-calls.png>
 Package pdftex.def Info: sec//img/api-calls.png  used on input line 20.
@@ -1144,12 +1110,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--22
 
  []
 
-[13 <./sec//architecture_diagram/Architecture.drawio.png>]) (./sec/mobile.tex
+[12 <./sec//architecture_diagram/Architecture.drawio.png>]) (./sec/mobile.tex
 
-LaTeX Warning: Reference `sec:redux' on page 14 undefined on input line 13.
+LaTeX Warning: Reference `sec:redux' on page 13 undefined on input line 13.
 
 
-LaTeX Warning: Reference `sec:flutter-changes' on page 14 undefined on input li
+LaTeX Warning: Reference `sec:flutter-changes' on page 13 undefined on input li
 ne 13.
 
 
@@ -1157,17 +1123,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--14
 
  []
 
-[14 <./sec//img/api-calls.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--21
 
  []
 
-<sec//img/redux.png, id=490, 762.85pt x 393.47pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+
+ []
+
+[13 <./sec//img/api-calls.png (PNG copy)>]
+<sec//img/redux.png, id=404, 762.85pt x 393.47pt>
 File: sec//img/redux.png Graphic file (type png)
 <use sec//img/redux.png>
 Package pdftex.def Info: sec//img/redux.png  used on input line 29.
@@ -1187,17 +1154,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--32
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 33--40
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--40
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+
+ []
+
+[14 <./sec//img/redux.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 43--50
 
  []
@@ -1207,301 +1174,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--50
 
  []
 
-[16 <./sec//img/redux.png>]) (./sec/frontend.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--23
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 24--35
+[15]) (./sec/frontend.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--51
+Underfull \hbox (badness 10000) in paragraph at lines 25--36
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 50--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--62
 
  []
 
 )
-<sec//img/database-model-new.png, id=506, 879.285pt x 805.0075pt>
+Underfull \hbox (badness 10000) in paragraph at lines 63--370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--370
+
+ []
+
+[17]
+<sec//img/database-model-new.png, id=423, 958.58125pt x 880.28876pt>
 File: sec//img/database-model-new.png Graphic file (type png)
 <use sec//img/database-model-new.png>
-Package pdftex.def Info: sec//img/database-model-new.png  used on input line 35
-3.
-(pdftex.def)             Requested size: 427.43153pt x 391.32486pt.
- [18]
-Underfull \hbox (badness 10000) in paragraph at lines 359--362
+Package pdftex.def Info: sec//img/database-model-new.png  used on input line 37
+6.
+(pdftex.def)             Requested size: 427.43153pt x 392.52647pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--385
 
  []
 
-[19 <./sec//img/database-model-new.png (PNG copy)>]
-<sec//stateapp.png, id=517, 3030.32124pt x 1364.09625pt>
-File: sec//stateapp.png Graphic file (type png)
-<use sec//stateapp.png>
-Package pdftex.def Info: sec//stateapp.png  used on input line 367.
-(pdftex.def)             Requested size: 398.33858pt x 179.29529pt.
-<sec//img/home-page.jpeg, id=526, 638.385pt x 1130.2225pt>
-File: sec//img/home-page.jpeg Graphic file (type jpg)
-<use sec//img/home-page.jpeg>
-Package pdftex.def Info: sec//img/home-page.jpeg  used on input line 382.
-(pdftex.def)             Requested size: 213.71576pt x 378.37251pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--385
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--385
-
- []
-
-[20 <./sec//stateapp.png (PNG copy)>]
-<sec//img/login-page.jpeg, id=531, 636.3775pt x 1132.23pt>
-File: sec//img/login-page.jpeg Graphic file (type jpg)
-<use sec//img/login-page.jpeg>
-Package pdftex.def Info: sec//img/login-page.jpeg  used on input line 389.
-(pdftex.def)             Requested size: 213.71576pt x 380.23665pt.
- [21 <./sec//img/home-page.jpeg>]
-<sec//img/register-page.jpeg, id=536, 638.385pt x 1131.22626pt>
-File: sec//img/register-page.jpeg Graphic file (type jpg)
-<use sec//img/register-page.jpeg>
-Package pdftex.def Info: sec//img/register-page.jpeg  used on input line 396.
-(pdftex.def)             Requested size: 213.71576pt x 378.70854pt.
- [22 <./sec//img/login-page.jpeg>]
-<sec//img/chat-list.jpeg, id=541, 633.36626pt x 1133.23375pt>
-File: sec//img/chat-list.jpeg Graphic file (type jpg)
-<use sec//img/chat-list.jpeg>
-Package pdftex.def Info: sec//img/chat-list.jpeg  used on input line 403.
-(pdftex.def)             Requested size: 213.71576pt x 382.37207pt.
- [23 <./sec//img/register-page.jpeg>]
-<sec//img/chat-conversation.jpeg, id=546, 636.3775pt x 1132.23pt>
-File: sec//img/chat-conversation.jpeg Graphic file (type jpg)
-<use sec//img/chat-conversation.jpeg>
-Package pdftex.def Info: sec//img/chat-conversation.jpeg  used on input line 41
-0.
-(pdftex.def)             Requested size: 213.71576pt x 380.23665pt.
- [24 <./sec//img/chat-list.jpeg>]
-<sec//img/formal-offers.jpeg, id=552, 633.36626pt x 1132.23pt>
-File: sec//img/formal-offers.jpeg Graphic file (type jpg)
-<use sec//img/formal-offers.jpeg>
-Package pdftex.def Info: sec//img/formal-offers.jpeg  used on input line 417.
-(pdftex.def)             Requested size: 213.71576pt x 382.03339pt.
- [25 <./sec//img/chat-conversation.jpeg>]
-<sec//img/enterprise-profile.png, id=557, 317.185pt x 567.11874pt>
-File: sec//img/enterprise-profile.png Graphic file (type png)
-<use sec//img/enterprise-profile.png>
-Package pdftex.def Info: sec//img/enterprise-profile.png  used on input line 42
-4.
-(pdftex.def)             Requested size: 213.71576pt x 382.13097pt.
- [26 <./sec//img/formal-offers.jpeg>]
-<sec//img/menu-profile.jpeg, id=562, 635.37375pt x 1130.2225pt>
-File: sec//img/menu-profile.jpeg Graphic file (type jpg)
-<use sec//img/menu-profile.jpeg>
-Package pdftex.def Info: sec//img/menu-profile.jpeg  used on input line 431.
-(pdftex.def)             Requested size: 213.71576pt x 380.16608pt.
- [27 <./sec//img/enterprise-profile.png>]
-<sec//img/mobile-screen-8.jpg, id=572, 578.16pt x 1284.8pt>
+[18 <./sec//img/database-model-new.png (PNG copy)>]
+<sec//img/mobile/not_registered.png, id=429, 1084.05pt x 2228.325pt>
+File: sec//img/mobile/not_registered.png Graphic file (type png)
+<use sec//img/mobile/not_registered.png>
+Package pdftex.def Info: sec//img/mobile/not_registered.png  used on input line
+ 391.
+(pdftex.def)             Requested size: 209.44379pt x 430.49246pt.
+<sec//img/mobile/login.png, id=430, 1084.05pt x 2228.325pt>
+File: sec//img/mobile/login.png Graphic file (type png)
+<use sec//img/mobile/login.png>
+Package pdftex.def Info: sec//img/mobile/login.png  used on input line 392.
+(pdftex.def)             Requested size: 209.44379pt x 430.49246pt.
+ [19]
+<sec//img/mobile-screen-8.jpg, id=435, 578.16pt x 1284.8pt>
 File: sec//img/mobile-screen-8.jpg Graphic file (type jpg)
 <use sec//img/mobile-screen-8.jpg>
-Package pdftex.def Info: sec//img/mobile-screen-8.jpg  used on input line 445.
-(pdftex.def)             Requested size: 213.71576pt x 474.91766pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 438--448
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 438--448
-
- []
-
-[28 <./sec//img/menu-profile.jpeg>]
-<sec//img/mobile-screen-7.jpg, id=577, 578.16pt x 1284.8pt>
-File: sec//img/mobile-screen-7.jpg Graphic file (type jpg)
-<use sec//img/mobile-screen-7.jpg>
-Package pdftex.def Info: sec//img/mobile-screen-7.jpg  used on input line 451.
-(pdftex.def)             Requested size: 213.71576pt x 474.91766pt.
-<sec//img/mobile-screen-6.jpg, id=578, 578.16pt x 1284.8pt>
-File: sec//img/mobile-screen-6.jpg Graphic file (type jpg)
-<use sec//img/mobile-screen-6.jpg>
-Package pdftex.def Info: sec//img/mobile-screen-6.jpg  used on input line 457.
-(pdftex.def)             Requested size: 213.71576pt x 474.91766pt.
- [29 <./sec//img/mobile-screen-8.jpg>]
-<sec//img/mobile-screen-5.jpg, id=583, 578.16pt x 1284.8pt>
+Package pdftex.def Info: sec//img/mobile-screen-8.jpg  used on input line 399.
+(pdftex.def)             Requested size: 205.1653pt x 455.92096pt.
+<sec//img/mobile/home.png, id=436, 1084.05pt x 2228.325pt>
+File: sec//img/mobile/home.png Graphic file (type png)
+<use sec//img/mobile/home.png>
+Package pdftex.def Info: sec//img/mobile/home.png  used on input line 400.
+(pdftex.def)             Requested size: 213.71576pt x 439.29883pt.
+ [20 <./sec//img/mobile/not_registered.png> <./sec//img/mobile/login.png>]
+<sec//img/mobile-screen-5.jpg, id=443, 578.16pt x 1284.8pt>
 File: sec//img/mobile-screen-5.jpg Graphic file (type jpg)
 <use sec//img/mobile-screen-5.jpg>
-Package pdftex.def Info: sec//img/mobile-screen-5.jpg  used on input line 463.
-(pdftex.def)             Requested size: 213.71576pt x 474.91766pt.
-
-[30 <./sec//img/mobile-screen-7.jpg>]
-<sec//img/mobile-screen-4.jpg, id=589, 578.16pt x 1284.8pt>
+Package pdftex.def Info: sec//img/mobile-screen-5.jpg  used on input line 407.
+(pdftex.def)             Requested size: 200.89334pt x 446.4128pt.
+<sec//img/mobile/enterprise.png, id=444, 1084.05pt x 2228.325pt>
+File: sec//img/mobile/enterprise.png Graphic file (type png)
+<use sec//img/mobile/enterprise.png>
+Package pdftex.def Info: sec//img/mobile/enterprise.png  used on input line 408
+.
+(pdftex.def)             Requested size: 222.26622pt x 456.8776pt.
+ [21 <./sec//img/mobile-screen-8.jpg> <./sec//img/mobile/home.png>]
+<sec//img/mobile-screen-4.jpg, id=450, 578.16pt x 1284.8pt>
 File: sec//img/mobile-screen-4.jpg Graphic file (type jpg)
 <use sec//img/mobile-screen-4.jpg>
-Package pdftex.def Info: sec//img/mobile-screen-4.jpg  used on input line 469.
-(pdftex.def)             Requested size: 213.71576pt x 474.91766pt.
- [31 <./sec//img/mobile-screen-6.jpg>]
-<sec//img/mobile-screen-3.jpg, id=594, 578.16pt x 1284.8pt>
-File: sec//img/mobile-screen-3.jpg Graphic file (type jpg)
-<use sec//img/mobile-screen-3.jpg>
-Package pdftex.def Info: sec//img/mobile-screen-3.jpg  used on input line 475.
-(pdftex.def)             Requested size: 213.71576pt x 474.91766pt.
-
-[32 <./sec//img/mobile-screen-5.jpg>]
-<sec//img/mobile-screen-2.jpg, id=599, 578.16pt x 1284.8pt>
-File: sec//img/mobile-screen-2.jpg Graphic file (type jpg)
-<use sec//img/mobile-screen-2.jpg>
-Package pdftex.def Info: sec//img/mobile-screen-2.jpg  used on input line 481.
-(pdftex.def)             Requested size: 213.71576pt x 474.91766pt.
- [33 <./sec//img/mobile-screen-4.jpg>]
-<sec//img/mobile-screen-1.jpg, id=604, 578.16pt x 1284.8pt>
-File: sec//img/mobile-screen-1.jpg Graphic file (type jpg)
-<use sec//img/mobile-screen-1.jpg>
-Package pdftex.def Info: sec//img/mobile-screen-1.jpg  used on input line 487.
-(pdftex.def)             Requested size: 213.71576pt x 474.91766pt.
-
-[34 <./sec//img/mobile-screen-3.jpg>] [35 <./sec//img/mobile-screen-2.jpg>]
-<sec//img/webwire_1.jpeg, id=614, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_1.jpeg Graphic file (type jpg)
-<use sec//img/webwire_1.jpeg>
-Package pdftex.def Info: sec//img/webwire_1.jpeg  used on input line 499.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
-<sec//img/webwire_2.jpeg, id=615, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_2.jpeg Graphic file (type jpg)
-<use sec//img/webwire_2.jpeg>
-Package pdftex.def Info: sec//img/webwire_2.jpeg  used on input line 505.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
-
-[36 <./sec//img/mobile-screen-1.jpg>]
-<sec//img/webwire_3.jpeg, id=621, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_3.jpeg Graphic file (type jpg)
-<use sec//img/webwire_3.jpeg>
-Package pdftex.def Info: sec//img/webwire_3.jpeg  used on input line 511.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
-<sec//img/webwire_4.jpeg, id=622, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_4.jpeg Graphic file (type jpg)
-<use sec//img/webwire_4.jpeg>
-Package pdftex.def Info: sec//img/webwire_4.jpeg  used on input line 517.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
-<sec//img/webwire_5.jpeg, id=623, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_5.jpeg Graphic file (type jpg)
-<use sec//img/webwire_5.jpeg>
-Package pdftex.def Info: sec//img/webwire_5.jpeg  used on input line 523.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
- [37 <./sec//img/webwire_1.jpeg> <./sec//img/webwire_2.jpeg> <./sec//img/webwir
-e_3.jpeg>]
-<sec//img/webwire_6.jpeg, id=628, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_6.jpeg Graphic file (type jpg)
-<use sec//img/webwire_6.jpeg>
-Package pdftex.def Info: sec//img/webwire_6.jpeg  used on input line 529.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
-<sec//img/webwire_7.jpeg, id=629, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_7.jpeg Graphic file (type jpg)
-<use sec//img/webwire_7.jpeg>
-Package pdftex.def Info: sec//img/webwire_7.jpeg  used on input line 535.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
-<sec//img/webwire_8.jpeg, id=630, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_8.jpeg Graphic file (type jpg)
-<use sec//img/webwire_8.jpeg>
-Package pdftex.def Info: sec//img/webwire_8.jpeg  used on input line 541.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
- [38 <./sec//img/webwire_4.jpeg> <./sec//img/webwire_5.jpeg> <./sec//img/webwir
-e_6.jpeg>]
-<sec//img/webwire_9.jpeg, id=635, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_9.jpeg Graphic file (type jpg)
-<use sec//img/webwire_9.jpeg>
-Package pdftex.def Info: sec//img/webwire_9.jpeg  used on input line 547.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
-<sec//img/webwire_10.jpeg, id=636, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_10.jpeg Graphic file (type jpg)
-<use sec//img/webwire_10.jpeg>
-Package pdftex.def Info: sec//img/webwire_10.jpeg  used on input line 553.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
-<sec//img/webwire_11.jpeg, id=637, 2007.5pt x 1505.625pt>
-File: sec//img/webwire_11.jpeg Graphic file (type jpg)
-<use sec//img/webwire_11.jpeg>
-Package pdftex.def Info: sec//img/webwire_11.jpeg  used on input line 559.
-(pdftex.def)             Requested size: 213.71576pt x 160.26633pt.
- [39 <./sec//img/webwire_7.jpeg> <./sec//img/webwire_8.jpeg> <./sec//img/webwir
-e_9.jpeg>]
-<sec//img/webclient_2.png, id=642, 1155.71774pt x 566.115pt>
+Package pdftex.def Info: sec//img/mobile-screen-4.jpg  used on input line 415.
+(pdftex.def)             Requested size: 200.89334pt x 446.4128pt.
+<sec//img/mobile/chat.png, id=451, 1084.05pt x 2228.325pt>
+File: sec//img/mobile/chat.png Graphic file (type png)
+<use sec//img/mobile/chat.png>
+Package pdftex.def Info: sec//img/mobile/chat.png  used on input line 416.
+(pdftex.def)             Requested size: 222.26622pt x 456.8776pt.
+ [22 <./sec//img/mobile-screen-5.jpg> <./sec//img/mobile/enterprise.png>]
+File: sec//img/mobile-screen-8.jpg Graphic file (type jpg)
+<use sec//img/mobile-screen-8.jpg>
+Package pdftex.def Info: sec//img/mobile-screen-8.jpg  used on input line 423.
+(pdftex.def)             Requested size: 200.89334pt x 446.4128pt.
+<sec//img/mobile/search.png, id=457, 1084.05pt x 2228.325pt>
+File: sec//img/mobile/search.png Graphic file (type png)
+<use sec//img/mobile/search.png>
+Package pdftex.def Info: sec//img/mobile/search.png  used on input line 424.
+(pdftex.def)             Requested size: 213.71576pt x 439.29883pt.
+ [23 <./sec//img/mobile-screen-4.jpg> <./sec//img/mobile/chat.png>]
+<sec//img/webclient_2.png, id=464, 1155.71774pt x 566.115pt>
 File: sec//img/webclient_2.png Graphic file (type png)
 <use sec//img/webclient_2.png>
-Package pdftex.def Info: sec//img/webclient_2.png  used on input line 568.
+Package pdftex.def Info: sec//img/webclient_2.png  used on input line 436.
 (pdftex.def)             Requested size: 213.71576pt x 104.68643pt.
-<sec//img/webclient_3.png, id=643, 1155.71774pt x 563.10374pt>
-File: sec//img/webclient_3.png Graphic file (type png)
-<use sec//img/webclient_3.png>
-Package pdftex.def Info: sec//img/webclient_3.png  used on input line 574.
-(pdftex.def)             Requested size: 213.71576pt x 104.1296pt.
-<sec//img/webclient_4.png, id=644, 1155.71774pt x 564.30824pt>
-File: sec//img/webclient_4.png Graphic file (type png)
-<use sec//img/webclient_4.png>
-Package pdftex.def Info: sec//img/webclient_4.png  used on input line 580.
-(pdftex.def)             Requested size: 213.71576pt x 104.35233pt.
- [40 <./sec//img/webwire_10.jpeg> <./sec//img/webwire_11.jpeg> <./sec//img/webc
-lient_2.png>]
-<sec//img/webclient_5.png, id=650, 1155.71774pt x 564.30824pt>
-File: sec//img/webclient_5.png Graphic file (type png)
-<use sec//img/webclient_5.png>
-Package pdftex.def Info: sec//img/webclient_5.png  used on input line 586.
-(pdftex.def)             Requested size: 213.71576pt x 104.35233pt.
-<sec//img/webclient_6.png, id=651, 1155.71774pt x 564.9105pt>
-File: sec//img/webclient_6.png Graphic file (type png)
-<use sec//img/webclient_6.png>
-Package pdftex.def Info: sec//img/webclient_6.png  used on input line 592.
-(pdftex.def)             Requested size: 213.71576pt x 104.4637pt.
-<sec//img/webclient_7.png, id=652, 1155.71774pt x 563.706pt>
-File: sec//img/webclient_7.png Graphic file (type png)
-<use sec//img/webclient_7.png>
-Package pdftex.def Info: sec//img/webclient_7.png  used on input line 598.
-(pdftex.def)             Requested size: 213.71576pt x 104.24097pt.
-<sec//img/webclient_8.png, id=653, 1155.71774pt x 564.9105pt>
-File: sec//img/webclient_8.png Graphic file (type png)
-<use sec//img/webclient_8.png>
-Package pdftex.def Info: sec//img/webclient_8.png  used on input line 604.
-(pdftex.def)             Requested size: 213.71576pt x 104.4637pt.
- [41 <./sec//img/webclient_3.png> <./sec//img/webclient_4.png> <./sec//img/webc
-lient_5.png> <./sec//img/webclient_6.png>]
-<sec//img/webclient_9.png, id=662, 1155.71774pt x 563.706pt>
-File: sec//img/webclient_9.png Graphic file (type png)
-<use sec//img/webclient_9.png>
-Package pdftex.def Info: sec//img/webclient_9.png  used on input line 610.
-(pdftex.def)             Requested size: 213.71576pt x 104.24097pt.
-<sec//img/webclient_10.png, id=663, 1155.71774pt x 566.115pt>
-File: sec//img/webclient_10.png Graphic file (type png)
-<use sec//img/webclient_10.png>
-Package pdftex.def Info: sec//img/webclient_10.png  used on input line 616.
-(pdftex.def)             Requested size: 213.71576pt x 104.68643pt.
-<sec//img/webclient_11.png, id=664, 1155.71774pt x 564.9105pt>
-File: sec//img/webclient_11.png Graphic file (type png)
-<use sec//img/webclient_11.png>
-Package pdftex.def Info: sec//img/webclient_11.png  used on input line 622.
-(pdftex.def)             Requested size: 213.71576pt x 104.4637pt.
-<sec//img/webclient_13.png, id=665, 1155.71774pt x 566.71725pt>
-File: sec//img/webclient_13.png Graphic file (type png)
-<use sec//img/webclient_13.png>
-Package pdftex.def Info: sec//img/webclient_13.png  used on input line 628.
-(pdftex.def)             Requested size: 213.71576pt x 104.7978pt.
- [42 <./sec//img/webclient_7.png> <./sec//img/webclient_8.png> <./sec//img/webc
-lient_9.png> <./sec//img/webclient_10.png>]
-<sec//img/webclient_14.png, id=675, 1155.71774pt x 562.5015pt>
-File: sec//img/webclient_14.png Graphic file (type png)
-<use sec//img/webclient_14.png>
-Package pdftex.def Info: sec//img/webclient_14.png  used on input line 634.
-(pdftex.def)             Requested size: 213.71576pt x 104.01822pt.
-<sec//img/webclient_15.png, id=676, 1155.71774pt x 564.9105pt>
-File: sec//img/webclient_15.png Graphic file (type png)
-<use sec//img/webclient_15.png>
-Package pdftex.def Info: sec//img/webclient_15.png  used on input line 640.
-(pdftex.def)             Requested size: 213.71576pt x 104.4637pt.
-<sec//img/webclient-16.jpg, id=677, 1606.0pt x 784.9325pt>
-File: sec//img/webclient-16.jpg Graphic file (type jpg)
-<use sec//img/webclient-16.jpg>
-Package pdftex.def Info: sec//img/webclient-16.jpg  used on input line 646.
-(pdftex.def)             Requested size: 213.71576pt x 104.4522pt.
- [43 <./sec//img/webclient_11.png> <./sec//img/webclient_13.png> <./sec//img/we
-bclient_14.png> <./sec//img/webclient_15.png>] [44 <./sec//img/webclient-16.jpg
->] [45]) (./sec/doc.tex
+ [24 <./sec//img/mobile/search.png>] [25 <./sec//img/webclient_2.png>] [26]) (.
+/sec/doc.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--16
 
  []
@@ -1511,26 +1289,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--16
 
  []
 
-[46] [47]
-<sec//img/pessimistic.png, id=703, 1033.8625pt x 612.2875pt>
+[27] [28]
+<sec//img/pessimistic.png, id=489, 1033.8625pt x 612.2875pt>
 File: sec//img/pessimistic.png Graphic file (type png)
 <use sec//img/pessimistic.png>
 Package pdftex.def Info: sec//img/pessimistic.png  used on input line 75.
 (pdftex.def)             Requested size: 398.33858pt x 235.90425pt.
- [48]
-<sec//img/mean.png, id=709, 1059.96pt x 594.22pt>
+ [29]
+<sec//img/mean.png, id=494, 1059.96pt x 594.22pt>
 File: sec//img/mean.png Graphic file (type png)
 <use sec//img/mean.png>
 Package pdftex.def Info: sec//img/mean.png  used on input line 97.
 (pdftex.def)             Requested size: 398.33858pt x 223.3125pt.
- [49 <./sec//img/pessimistic.png>]
-<sec//img/optimistic.png, id=716, 1042.89626pt x 630.355pt>
+ [30 <./sec//img/pessimistic.png>]
+<sec//img/optimistic.png, id=502, 1042.89626pt x 630.355pt>
 File: sec//img/optimistic.png Graphic file (type png)
 <use sec//img/optimistic.png>
 Package pdftex.def Info: sec//img/optimistic.png  used on input line 117.
 (pdftex.def)             Requested size: 398.33858pt x 240.76854pt.
- [50 <./sec//img/mean.png>]
-<sec//roi2.png, id=727, 760.8425pt x 202.7575pt>
+ [31 <./sec//img/mean.png>]
+<sec//roi2.png, id=512, 760.8425pt x 202.7575pt>
 File: sec//roi2.png Graphic file (type png)
 <use sec//roi2.png>
 Package pdftex.def Info: sec//roi2.png  used on input line 129.
@@ -1540,7 +1318,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--132
 
  []
 
-<sec//img/indices2.png, id=728, 626.34pt x 170.6375pt>
+<sec//img/indices2.png, id=513, 626.34pt x 170.6375pt>
 File: sec//img/indices2.png Graphic file (type png)
 <use sec//img/indices2.png>
 Package pdftex.def Info: sec//img/indices2.png  used on input line 139.
@@ -1550,13 +1328,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--142
 
  []
 
-[51 <./sec//img/optimistic.png> <./sec//roi2.png>]
-<sec//img/bep-year2.png, id=735, 639.38875pt x 218.8175pt>
+[32 <./sec//img/optimistic.png> <./sec//roi2.png>]
+<sec//img/bep-year2.png, id=520, 639.38875pt x 218.8175pt>
 File: sec//img/bep-year2.png Graphic file (type png)
 <use sec//img/bep-year2.png>
 Package pdftex.def Info: sec//img/bep-year2.png  used on input line 145.
 (pdftex.def)             Requested size: 312.9803pt x 107.11131pt.
-<sec//img/CashFlow.png, id=737, 891.33pt x 549.05125pt>
+<sec//img/CashFlow.png, id=522, 891.33pt x 549.05125pt>
 File: sec//img/CashFlow.png Graphic file (type png)
 <use sec//img/CashFlow.png>
 Package pdftex.def Info: sec//img/CashFlow.png  used on input line 153.
@@ -1565,25 +1343,22 @@ Package pdftex.def Info: sec//img/CashFlow.png  used on input line 153.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [52 <./sec//img/indices2.png> <./sec//img/bep-year2.png>] [53 <./sec//img/Cas
+) [33 <./sec//img/indices2.png> <./sec//img/bep-year2.png>] [34 <./sec//img/Cas
 hFlow.png>] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 84B07773CB58B47F25B1D453DEFC4D68;3327.
+(rerunfilecheck)             Checksum: C839A205C5F56DD99432C733D471F9EA;3249.
  ) 
 Here is how much of TeX's memory you used:
- 24012 strings out of 481190
- 444908 string characters out of 5913949
- 796894 words of memory out of 5000000
- 40041 multiletter control sequences out of 15000+600000
- 418259 words of font info for 146 fonts, out of 8000000 for 9000
+ 23740 strings out of 481190
+ 438949 string characters out of 5913949
+ 795726 words of memory out of 5000000
+ 39853 multiletter control sequences out of 15000+600000
+ 418379 words of font info for 148 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 101i,10n,102p,1004b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,10n,102p,1004b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1600,10 +1375,10 @@ nts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on main.pdf (54 pages, 10369428 bytes).
+Output written on main.pdf (35 pages, 8920856 bytes).
 PDF statistics:
- 835 PDF objects out of 1000 (max. 8388607)
- 673 compressed objects within 7 object streams
- 169 named destinations out of 1000 (max. 500000)
- 34004 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 608 PDF objects out of 1000 (max. 8388607)
+ 504 compressed objects within 6 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 33828 words of extra memory for PDF output out of 35830 (max. 10000000)
 
